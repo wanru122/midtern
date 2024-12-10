@@ -1,1 +1,1 @@
-p
+print('git pull --rebase')
