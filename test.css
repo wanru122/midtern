@@ -1,0 +1,103 @@
+* {
+    padding: 0; 
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+main {
+    background-color: white;
+}
+
+header {
+    background-color: rgb(26, 120, 106);
+    height: 75px;
+    width: 100%;
+    position: relative;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 5vw;
+    top: 0;
+    line-height: 75px;
+}
+
+nav {
+    position: absolute;
+    right: 5vw;
+    padding: 10px 0;
+    background-color: rgba(26, 120, 106, 0.833);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    border-radius: 50px;
+    background-color: rgba(18, 83, 73, 0.833);
+    cursor: pointer;
+    transition: 
+        scale 0.1s ease-in,
+        opacity 0.5s ease-in,
+        filter 0.1s ease-in;
+    &:hover{
+        scale: 1.2;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(132, 180, 172, 0.683);
+    text-align: center;
+}
+main {
+    padding: 10px;
+    
+}
+.covertit{
+    padding: 10px;
+}
+.tit{
+    border-radius: 10px;
+    background-color: rgb(26, 120, 106);
+    color: white;
+    padding: 10px 0;
+}
+
+.btn-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: rgb(26, 120, 106);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(14, 72, 64);
+}
+footer {
+    
+    padding-top: 10px;
+}
+.que {
+    margin-top: 10px;
+}

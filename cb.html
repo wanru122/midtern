@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azure GPT-35-Turbo Chatbot</title>
+  <style>
+    /* 基本样式 */
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    #chat-container {
+      max-height: 400px;
+      overflow-y: auto;
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+    .message {
+      margin: 8px 0;
+      padding: 8px;
+      border-radius: 5px;
+    }
+    .user-message {
+      background-color: #daf8e3;
+      text-align: right;
+    }
+    .bot-message {
+      background-color: #f1f1f1;
+    }
+    #input-container {
+      display: flex;
+    }
+    #user-input {
+      flex: 1;
+      padding: 8px;
+      font-size: 16px;
+    }
+    #send-button {
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2>Azure GPT-35-Turbo Chatbot</h2>
+  <div id="chat-container"></div>
+  <div id="input-container">
+    <input type="text" id="user-input" placeholder="Type your message here..." />
+    <button id="send-button">Send</button>
+  </div>
+
+  <script>
+    const endpointUrl = "";
+    const apiKey = "";
+
+    // 发送消息到 Azure OpenAI API
+    async function sendMessageToAPI(message) {
+      const response = await fetch(endpointUrl, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "api-key": apiKey,
+        },
+        body: JSON.stringify({
+          messages: [{ role: "user", content: message }],
+          max_tokens: 100,
+          temperature: 0.7,
+        }),
+      });
+      const data = await response.json();
+      return data.choices[0].message.content;
+    }
+
+    // 更新聊天记录
+    function updateChat(role, message) {
+      const chatContainer = document.getElementById("chat-container");
+      const messageElement = document.createElement("div");
+      messageElement.classList.add("message", role === "user" ? "user-message" : "bot-message");
+      messageElement.textContent = message;
+      chatContainer.appendChild(messageElement);
+      chatContainer.scrollTop = chatContainer.scrollHeight;
+    }
+
+    // 发送按钮点击事件
+    document.getElementById("send-button").addEventListener("click", async () => {
+      const userInput = document.getElementById("user-input");
+      const userMessage = userInput.value.trim();
+      if (userMessage === "") return;
+
+      // 显示用户消息
+      updateChat("user", userMessage);
+      userInput.value = "";
+
+      // 获取并显示机器人回复
+      const botResponse = await sendMessageToAPI(userMessage);
+      updateChat("bot", botResponse);
+    });
+  </script>
+</body>
+</html>
