@@ -1,0 +1,372 @@
+* {
+    padding: 0; 
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+main {
+    background-color: white;
+}
+
+header {
+    background-color: rgb(26, 120, 106);
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    margin-top: 13px;
+    width: 250px;
+    color: white;
+    position: absolute;
+    left: 5vw;
+    line-height: 75px;
+}
+
+nav {
+    position: absolute;
+    right: 5vw;
+    padding: 10px 0;
+    background-color: rgba(26, 120, 106, 0.833);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    border-radius: 50px;
+    background-color: rgba(18, 83, 73, 0.833);
+    cursor: pointer;
+    transition: 
+        scale 0.1s ease-in,
+        opacity 0.5s ease-in,
+        filter 0.1s ease-in;
+    &:hover{
+        scale: 1.2;
+    }
+}
+
+section {
+    background-color: rgba(132, 180, 172, 0.208);
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+.picture {
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px 150px 20px;
+    flex: 1;
+}
+
+.picture img {
+    max-width: auto;
+    height: auto;
+}
+
+footer {
+    background-color: rgb(26, 120, 106);
+    color: #b7b7b7;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+
+.container {
+    position: relative; /* 設置父容器為相對定位 */
+    width: 500px; /* 設定容器寬度 */
+    height: 400px; /* 設定容器高度 */
+}
+
+.background-image {
+    border-radius: 20px;
+    width: 100%; /* 背景圖片自適應容器 */
+    height: auto; /* 保持比例 */
+}
+
+.overlay-image1 {
+    position: absolute; /* 設置為絕對定位 */
+    top: 125px; /* 垂直偏移量 */
+    left:310px; /* 水平偏移量 */
+    width: 100px; /* 調整重疊圖片的大小 */
+    height: auto; /* 保持比例 */
+    border :2px solid black;
+    border-radius : 50%;
+}
+
+.overlay-image2 {
+    position: absolute; /* 設置為絕對定位 */
+    top: 245px; /* 垂直偏移量 */
+    left: 245px; /* 水平偏移量 */
+    width: 100px; /* 調整重疊圖片的大小 */
+    height: auto; /* 保持比例 */
+    border :2px solid black;
+    border-radius : 50%;
+}
+.overlay-image3 {
+    position: absolute; /* 設置為絕對定位 */
+    top: 220px; /* 垂直偏移量 */
+    left:390px; /* 水平偏移量 */
+    width: 100px; /* 調整重疊圖片的大小 */
+    height: auto; /* 保持比例 */
+    border :2px solid black;
+    border-radius : 50%;
+}
+.overlay-image4 {
+    position: absolute; /* 設置為絕對定位 */
+    top: 345px; /* 垂直偏移量 */
+    left:330px; /* 水平偏移量 */
+    width: 100px; /* 調整重疊圖片的大小 */
+    height: auto; /* 保持比例 */
+    border :2px solid black;
+    border-radius : 50%;
+}
+.overlay-image5 {
+    position: absolute; /* 設置為絕對定位 */
+    top: 430px; /* 垂直偏移量 */
+    left:215px; /* 水平偏移量 */
+    width: 100px; /* 調整重疊圖片的大小 */
+    height: auto; /* 保持比例 */
+    border :2px solid black;
+    border-radius : 50%;
+}
+.overlay-image6 {
+    position: absolute; /* 設置為絕對定位 */
+    top: 530px; /* 垂直偏移量 */
+    left:305px; /* 水平偏移量 */
+    width: 100px; /* 調整重疊圖片的大小 */
+    height: auto; /* 保持比例 */
+    border :2px solid black;
+    border-radius : 50%;
+}
+.overlay-image7 {
+    position: absolute; /* 設置為絕對定位 */
+    top: 170px; /* 垂直偏移量 */
+    left:780px; /* 水平偏移量 */
+    width: 100px; /* 調整重疊圖片的大小 */
+    height: auto; /* 保持比例 */
+    border :2px solid black;
+    border-radius : 50%;
+}
+.overlay-image8 {
+    position: absolute; /* 設置為絕對定位 */
+    top: 295px; /* 垂直偏移量 */
+    left:785px; /* 水平偏移量 */
+    width: 100px; /* 調整重疊圖片的大小 */
+    height: auto; /* 保持比例 */
+    border :2px solid black;
+    border-radius : 50%;
+}
+.overlay-image9 {
+    position: absolute; /* 設置為絕對定位 */
+    top: 320px; /* 垂直偏移量 */
+    left:920px; /* 水平偏移量 */
+    width: 100px; /* 調整重疊圖片的大小 */
+    height: auto; /* 保持比例 */
+    border :2px solid black;
+    border-radius : 50%;
+}
+.overlay-image10 {
+    position: absolute; /* 設置為絕對定位 */
+    top: 430px; /* 垂直偏移量 */
+    left:860px; /* 水平偏移量 */
+    width: 100px; /* 調整重疊圖片的大小 */
+    height: auto; /* 保持比例 */
+    border :2px solid black;
+    border-radius : 50%;
+}
+.overlay-image11 {
+    position: absolute; /* 設置為絕對定位 */
+    top: 550px; /* 垂直偏移量 */
+    left:900px; /* 水平偏移量 */
+    width: 100px; /* 調整重疊圖片的大小 */
+    height: auto; /* 保持比例 */
+    border :2px solid black;
+    border-radius : 50%;
+}
+
+.click {
+    border-radius: 50%;
+    transition: 
+        transform 0.1s ease-in,
+        opacity 0.5s ease-in,
+        filter 0.1s ease-in;
+}
+
+.click:hover {
+    background-color: var(); /* 替換為你的背景顏色 */
+    color: var(); /* 替換為你的文本顏色 */
+    cursor: pointer;
+    transform: scale(1.2); /* 使用 transform 進行縮放 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* 添加陰影 */
+}
+
+.td{
+    display: inline;
+    text-decoration: none;
+}
+/* .bts{
+    display: flex;
+    column-gap: 2rem;
+    background-color: var();
+} */
+
+/* .btn{
+    background-color: var();
+    color: var();
+    cursor: pointer;
+    transition: 
+        scale 0.2s ease-in,
+        opacity 0.25s ease-in,
+        filter 0.25s ease-in;
+    &:hover{
+        scale: 1.2;
+    }
+} */
+
+.btns:has(.btn:hover) .btn:not(:hover){
+    scale:0.8;
+    opacity:0.8;
+    filter: blur(0px);
+}
+#linebot {
+    width: 400px;
+    border: 3px solid rgb(26, 120, 106);;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+#messages {
+    height: 300px;
+    overflow-y: auto;
+    border: 10px solid rgba(132, 180, 172, 0.208);
+    margin-bottom: 20px;
+    background-color:rgba(6, 156, 131, 0.208);
+    padding: 5px;
+}
+
+.message {
+    margin: 5px 0;
+    text-align: right;
+}
+#userInput {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid rgba(132, 180, 172, 0.683);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#sendButton{
+    padding: 10px;
+    background-color: rgb(26, 120, 106);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#sendButton:hover {
+    background-color: rgb(34, 150, 130);
+}
+.lb {
+    padding: 50px;
+    margin-left: 50px;
+}
+.cb {
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    color: rgb(26, 120, 106);;
+}
+.others_pic {
+    display: inline;
+    width: 150px; /* 調整重疊圖片的大小 */
+    height: auto; /* 保持比例 */
+    border :2px solid black;
+    border-radius : 50%;
+}
+.others {
+    padding: 10px 150px 10px;
+}
+.others_w {
+    text-align: center;
+    padding: 10px 15px 10px;
+}
+.ct {
+    margin-top: 50px;
+    margin-right: 100px;
+    display: flex; /* 使用 Flexbox 來控制排列 */
+    flex-direction: column; /* 垂直排列 */
+    align-items: center; /* 置中內容 */
+}
+
+.contact, .comments-section {
+    width: 80%; /* 統一寬度 */
+    max-width: 600px; /* 最大寬度 */
+    margin: 20px 0; /* 上下間距 */
+    padding: 20px; /* 內邊距 */
+    border: 1px solid #ccc; /* 邊框 */
+    border-radius: 10px; /* 圓角 */
+    background-color: rgba(240, 240, 240, 0.9); /* 背景顏色 */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 陰影 */
+    transition: transform 0.2s; /* 過渡效果 */
+}
+
+.contact:hover, .comments-section:hover {
+    transform: scale(1.02); /* 懸停時的放大效果 */
+}
+
+h2.cb {
+    text-align: center; /* 標題置中 */
+    margin-bottom: 15px; /* 標題下邊距 */
+}
+
+#commentInput {
+    width: 100%; /* 寬度100% */
+    height: 100px; /* 高度 */
+    margin-bottom: 10px; /* 下邊距 */
+    padding: 10px; /* 內邊距 */
+    border: 1px solid #ccc; /* 邊框 */
+    border-radius: 5px; /* 圓角 */
+    resize: none; /* 禁止調整大小 */
+    font-family: Arial, sans-serif; /* 字體 */
+    font-size: 1rem; /* 字體大小 */
+}
+
+button {
+    padding: 10px 20px; /* 按鈕內邊距 */
+    background-color: #4CAF50; /* 背景顏色 */
+    color: white; /* 字體顏色 */
+    border: none; /* 無邊框 */
+    border-radius: 5px; /* 圓角 */
+    cursor: pointer; /* 鼠標樣式 */
+    transition: background-color 0.3s, transform 0.2s; /* 背景過渡效果和縮放效果 */
+}
+
+button:hover {
+    background-color: #45a049; /* 鼠標懸停效果 */
+    transform: scale(1.05); /* 按鈕懸停時放大效果 */
+}
+
+.comment-time {
+    font-size: 0.8rem; /* 時間字體大小 */
+    color: #666; /* 時間顏色 */
+    margin-top: 5px; /* 上邊距 */
+}
