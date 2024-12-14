@@ -115,13 +115,11 @@ with open('news.html', 'w+', encoding='utf-8') as f:
         <div class="back-to-top">
             <a href="#top">回到頂部</a>
         </div>
+        <div class="footer2">
+            <p>保健巴拉拉. 為您服務</p>
+            <p>最新更新時間: {current_time}</p>
+        </div>
         
-        <footer>
-            <div class="footer2">
-                <p>保健巴拉拉. 為您服務</p>
-                <p>最新更新時間: {current_time}</p>
-            </div>
-        </footer>
         <script>
         window.onload = function() {{
             setTimeout(function() {{
