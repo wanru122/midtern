@@ -37,7 +37,8 @@ header a {
     margin-top: 13px;
     width: 250px;
     color: white;
-    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
     left: 5vw;
     line-height: 75px;
 }
@@ -50,10 +51,10 @@ h2 {
     margin: 0;
     font-size: 2.2vw; 
 }
-/* h3 {
+h3 {
     margin: 0;
     font-size: 1.6vw; 
-} */
+} 
 p {
     margin-bottom: 15px; /* 設定段落之間的空隙 */
     line-height: 1.4; /* 設定行距以增強可讀性 */
