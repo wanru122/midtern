@@ -19,7 +19,13 @@ header {
     height: 75px;
     width: 100%;
     position: fixed;
-    z-index: 10;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
 }
 
 header a {
@@ -56,9 +62,8 @@ p {
 
 
 nav {
-    position: absolute;
-    right: 5vw;
-    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgba(26, 120, 106, 0.833);
 }
 
