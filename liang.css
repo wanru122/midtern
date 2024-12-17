@@ -70,7 +70,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    padding: 14px 20px;
+    padding: 1vw 2vw;
     display: inline-block;
 }
 
@@ -81,7 +81,8 @@ nav a:hover {
     transition: 
         scale 0.1s ease-in,
         opacity 0.5s ease-in,
-        filter 0.1s ease-in;
+        filter 0.1s ease-in,
+        background-color 0.2s;
     &:hover{
         scale: 1.2;
     }
