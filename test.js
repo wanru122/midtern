@@ -2,7 +2,7 @@ console.log("連到了幹");
 
 const questions = [
     {
-        question: "問題 1: 陳璿丞喜歡吃什麼?",
+        question: "問題 1: 000喜歡吃什麼?",
         answers: [
             { text: "A: 芋頭", correct: false },
             { text: "B: 大便", correct: true },
