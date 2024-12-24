@@ -19,13 +19,7 @@ header {
     height: 75px;
     width: 100%;
     position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5vw;
+    z-index: 10;
 }
 
 header a {
@@ -37,11 +31,38 @@ header a {
     margin-top: 13px;
     width: 250px;
     color: white;
-    display: flex;
-    flex-wrap: wrap;
+    position: absolute;
     left: 5vw;
     line-height: 75px;
 }
+
+nav {
+    position: absolute;
+    right: 5vw;
+    padding: 10px 0;
+    background-color: rgba(26, 120, 106, 0.833);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    border-radius: 50px;
+    background-color: rgba(18, 83, 73, 0.833);
+    cursor: pointer;
+    transition: 
+        scale 0.1s ease-in,
+        opacity 0.5s ease-in,
+        filter 0.1s ease-in;
+    &:hover{
+        scale: 1.2;
+    }
+}
+
 h1 {
     color: white;
     margin: 0;
@@ -51,37 +72,15 @@ h2 {
     margin: 0;
     font-size: 2.2vw; 
 }
-h3 {
+/* h3 {
     margin: 0;
     font-size: 1.6vw; 
-} 
+}  */
 p {
     margin-bottom: 15px; /* 設定段落之間的空隙 */
     line-height: 1.4; /* 設定行距以增強可讀性 */
 }
 
-
-
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgba(26, 120, 106, 0.833);
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 1vw 2vw;
-    display: inline-block;
-}
-
-nav a:hover {
-    border-radius: 50px;
-    background-color: rgba(18, 83, 73, 0.833);
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: transform 0.1s ease-in, background-color 0.2s;
-}
 
 
 
