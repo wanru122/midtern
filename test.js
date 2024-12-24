@@ -2,7 +2,11 @@ console.log("連到了幹");
 
 const questions = [
     {
+<<<<<<< HEAD
         question: "問題 1: 陳璿丞喜歡吃什麼?",
+=======
+        question: "問題 1: 000喜歡吃什麼?",
+>>>>>>> 2adb524a64cdbab160a3aa26f524f216952b7c67
         answers: [
             { text: "A: 芋頭", correct: false },
             { text: "B: 大便", correct: true },

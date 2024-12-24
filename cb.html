@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
   <title>Azure GPT-35-Turbo Chatbot</title>
   <style>
     /* 基本样式 */
@@ -62,6 +63,12 @@
     const endpointUrl = "";
     const apiKey = "";
 
+=======
+  <title>Chatbot</title>
+  <link rel="stylesheet" href="cb.css">
+  <script>
+    //token here
+>>>>>>> 2adb524a64cdbab160a3aa26f524f216952b7c67
     // 发送消息到 Azure OpenAI API
     async function sendMessageToAPI(message) {
       const response = await fetch(endpointUrl, {
@@ -105,5 +112,33 @@
       updateChat("bot", botResponse);
     });
   </script>
+<<<<<<< HEAD
+=======
+</head>
+
+<body>
+<header>
+  <img src="image/logo.jpg" class="logo">
+  <nav>
+          <a href="index.html" ><h3>首頁</h3></a>
+          <a href="#"><h3>健康分析工具</h3></a>
+          <a href="cb.html"><h3>Chat Bot</h3></a>
+          <a href="test.html"><h3>百萬小學堂</h3></a>
+          <a href="index.html#email"><h3>聯絡我們</h3></a>
+  </nav>
+</header>
+<section>
+  <h2>Chatbot</h2>
+  <div id="chat-container"></div>
+  <div id="input-container">
+    <input type="text" id="user-input" placeholder="輸入訊息..." />
+    <button id="send-button">Send</button>
+  </div>
+</section>
+
+ 
+
+  
+>>>>>>> 2adb524a64cdbab160a3aa26f524f216952b7c67
 </body>
 </html>

@@ -13,7 +13,12 @@ header {
     background-color: rgb(26, 120, 106);
     height: 75px;
     width: 100%;
+<<<<<<< HEAD
     position: relative;
+=======
+    position: fixed;
+    z-index: 10;
+>>>>>>> 2adb524a64cdbab160a3aa26f524f216952b7c67
 }
 
 header a {
@@ -22,6 +27,7 @@ header a {
 }
 
 
+<<<<<<< HEAD
 h1 {
     color: white;
     position: absolute;
@@ -29,6 +35,8 @@ h1 {
     top: 0;
     line-height: 75px;
 }
+=======
+>>>>>>> 2adb524a64cdbab160a3aa26f524f216952b7c67
 
 nav {
     position: absolute;
@@ -100,4 +108,16 @@ footer {
 }
 .que {
     margin-top: 10px;
+<<<<<<< HEAD
 }
+=======
+}
+.logo {
+    margin-top: 13px;
+    width: 250px;
+    color: white;
+    position: absolute;
+    left: 5vw;
+    line-height: 75px;
+}
+>>>>>>> 2adb524a64cdbab160a3aa26f524f216952b7c67
