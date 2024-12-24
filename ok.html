@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>保健意識普及大作戰</title>
+    <style>
+        html {
+        scroll-behavior: smooth;
+        }
+        * {
+            padding: 0; 
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            background-color: rgb(26, 120, 106);
+            height: 100px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 5vw;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        h1 {
+            color: white;
+            margin: 0;
+            font-size: 3em;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        nav a:hover {
+            border-radius: 50px;
+            background-color: rgba(18, 83, 73, 0.833);
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: transform 0.1s ease-in, background-color 0.2s;
+        }
+
+        .content {
+            display: flex;
+            flex: 1;
+            padding-top: 100px;
+        }
+
+        /* 側邊欄樣式 */
+        .sidebar {
+            width: 20%;
+            background-color: rgb(20, 156, 124);
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            top: 100px;
+            bottom: 0;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            margin: 8px 0;
+            background-color: rgba(18, 83, 73, 0.8);
+            text-align: center;
+            font-size: 1.2em;
+            border-radius: 10px;
+        }
+
+        .sidebar a:hover {
+            background-color: rgb(53, 101, 94);
+            transform: scale(1.05);
+            transition: transform 0.1s ease-in;
+        }
+
+        main {
+            width: 80%;
+            margin-left: 20%;
+            background-color: white;
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+        .image-text-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 40px 0;
+            padding: 20px 0;
+        }
+
+        .image-text-section:first-of-type {
+            margin: 60px 0;
+            padding: 40px 0;
+            border: none; /* 不給分隔線上方區塊加框線 */
+        }
+
+        .image-text-section:not(:first-of-type) {
+            border: 3px solid rgb(26, 120, 106);
+            border-radius: 10px; /* 分隔線下方區塊顯示框線 */
+            scroll-margin-top: 100px; /* 和 header 的高度相等 */
+        
+        }
+
+        .image-text-section img {
+            max-width: 250px;
+            height: auto;
+            flex: 1;
+        }
+
+        .image-text-section .text {
+            flex: 1;
+            padding: 0 10px;
+            text-align: center;
+        }
+
+        .alternate {
+            flex-direction: row-reverse;
+        }
+
+        .divider {
+            border: none;
+            height: 5px;
+            background-color: rgb(26, 120, 106);
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: rgb(26, 120, 106);
+            color: #b7b7b7;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>保健知識</h1>
+        <nav>
+            <a href="http://127.0.0.1:3000/index.html">首頁</a>
+            <a href="#">Q&A</a>
+            <a href="#linebot">Chat Bot</a>
+            <a href="http://127.0.0.1:3000/test.html">百萬小學堂</a>
+            <a href="http://127.0.0.1:3000/notyet.html">聯絡我們</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="sidebar">
+            <a href="#food-allergy">食物過敏</a>
+            <a href="#env-allergy">環境過敏</a>
+            <a href="#other-allergy">其他過敏</a>
+            <a href="#seasonal-allergy">季節性過敏</a>
+            <a href="#drug-allergy">藥物過敏</a>
+        </div>
+
+        <main>
+            <section class="image-text-section">
+                <div class="text">
+                    <h2>過敏</h2>
+                    <p>困擾著許多人的問題</p>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5bQ2HbDtfXiMZ2fAerwYc0Xnfay57rLqLQA&s" alt="示範圖片">
+                <div class="text">
+                    <h2>介紹</h2>
+                    <p>這裡可以添加一些描述性的文字，介紹中間的圖片或相關主題。</p>
+                </div>
+            </section>
+
+            <hr class="divider">
+
+            <section id="food-allergy" class="image-text-section alternate">
+                <div class="text">
+                    <h2>食物過敏</h2>
+                    <p>某些食物可能會引起過敏反應。</p>
+                </div>
+                <img src="https://png.pngtree.com/png-clipart/20220120/ourmid/pngtree-sick-and-allergic-rash-png-image_4351871.png" alt="食物過敏示範圖片">
+            </section>
+
+            <section id="env-allergy" class="image-text-section">
+                <div class="text">
+                    <h2>環境過敏</h2>
+                    <p>如花粉、灰塵等都可能引發過敏。</p>
+                </div>
+                <img src="https://png.pngtree.com/png-clipart/20220112/ourmid/pngtree-original-hand-painted-spring-pollen-allergy-catkins-allergy-rhinitis-asthma-png-image_4155395.png" alt="環境過敏示範圖片">
+            </section>
+
+            <section id="other-allergy" class="image-text-section alternate">
+                <div class="text">
+                    <h2>其他</h2>
+                    <p>掌握正確的應對方式，減少過敏發作。</p>
+                </div>
+                <img src="https://png.pngtree.com/png-clipart/20220120/ourmid/pngtree-sick-and-allergic-rash-png-image_4351871.png" alt="過敏應對示範圖片">
+            </section>
+
+            <section id="seasonal-allergy" class="image-text-section">
+                <div class="text">
+                    <h2>季節性過敏</h2>
+                    <p>春季花粉和秋季霉菌都可能引起過敏。</p>
+                </div>
+                <img src="https://png.pngtree.com/png-clipart/20220112/ourmid/pngtree-original-hand-painted-spring-pollen-allergy-catkins-allergy-rhinitis-asthma-png-image_4155395.png" alt="季節性過敏示範圖片">
+            </section>
+
+            <section id="drug-allergy" class="image-text-section alternate">
+                <div class="text">
+                    <h2>藥物過敏</h2>
+                    <p>有些人可能對某些藥物過敏，需謹慎使用。</p>
+                </div>
+                <img src="https://png.pngtree.com/png-clipart/20220120/ourmid/pngtree-sick-and-allergic-rash-png-image_4351871.png" alt="藥物過敏示範圖片">
+            </section>
+
+        </main>
+    </div>
+
+    <footer>
+        <h3>想睡覺想睡覺想睡覺累累累累累累累累累累累累累累累累累累累累累累累累累累累累累累累累累累累累累累累累</h3>
+    </footer>
+</body>
+</html>

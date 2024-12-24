@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(26, 120, 106);
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    font-family: "標楷體"
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    font-size: 3.2vw; 
+}
+h2 {
+    margin: 0;
+    font-size: 2.2vw; 
+}
+h3 {
+    margin: 0;
+    font-size: 1.6vw; 
+}
+p {
+    margin-bottom: 15px; /* 設定段落之間的空隙 */
+    line-height: 1.4; /* 設定行距以增強可讀性 */
+}
+
+
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.3vw; /* 使用 vw 單位，使字體隨視口寬度變化 */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1vw 2vw; /* 使用 vw 單位，讓內邊距隨視口寬度變化 */
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.8vw; /* 調整字體大小 */
+}
+
+nav a:hover {
+    border-radius: 50px;
+    background-color: rgba(18, 83, 73, 0.833);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in, background-color 0.2s;
+}
+
+
+
+
+.content {/*側邊欄*/
+    display: flex;
+    flex: 1;
+    padding-top: 75px; /* 避免 header 覆蓋內容 */
+    padding-bottom: 50px; /* 避免 footer 被側邊欄擋住 */
+    font-family: "標楷體"
+}
+.sidebar {
+    width: 18%; /* 固定側邊欄的寬度 */
+    background-color: rgb(20, 156, 124);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 75px; /* 從 header 下面開始 */
+    bottom: 0; /* 確保側邊欄延伸到底部 */
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 8px 0;
+    background-color: rgba(18, 83, 73, 0.8);
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+.sidebar a:hover {
+    background-color: rgb(53, 101, 94);
+    transform: scale(1.05);
+    transition: transform 0.1s ease-in;
+}
+
+
+
+
+main {/*主體*/
+    flex: 1; 
+    margin-left: 20%;
+    background-color: white;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+
+
+
+
+.image-text-section {/*症狀們*/
+    display: flex; /* 使用 Flexbox 進行排列 */
+    align-items: center;/* 圖片垂直對齊 */
+    justify-content: space-between; /* 空間均分 */
+    margin: 35px 0;
+    margin-left: 20%;
+    padding: 0px 0;
+    max-width: 1200px; /* 設定最大寬度 */
+    margin: 40px auto; /* 使整個 section 在中間 */
+    
+}
+    
+.image-text-section > div, /* 每個 div 區塊 */
+.image-text-section img {
+    flex: 1; /* 讓每個元素在可用空間中均等分配 */
+    margin: 0 8px; /* 每個欄位之間的間距 */
+}
+
+
+
+.image-text-section img {
+    max-width: 250px; /* 限制圖片的最大寬度 */
+    height: auto; /* 保持圖片比例 */
+    margin: 40px;
+}
+.image-text-section:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.image-text-section:nth-child(even) {
+    background-color: #f0f0f0;
+}
+.text {
+    text-align: center;
+    max-width: 280px; /* 限制每個文字區塊的最大寬度 */
+    margin: 0 auto; /* 讓文字區塊在其容器中置中 */
+}
+.image-text-section:first-of-type {
+    margin: 60px 0;
+    padding: 40px 0;
+    border: none;
+}
+.image-text-section:not(:first-of-type) {
+    border: 3px solid rgb(26, 120, 106);
+    border-radius: 10px;
+    scroll-margin-top: 100px;
+}
+.alternate {
+    flex-direction: row-reverse;
+
+}
+.text2 {
+    line-height: 1.6; /* 設定行距以增強可讀性 */
+    text-align: left;
+    max-width: 80%; /* 限制每個文字區塊的最大寬度 */
+    margin: 0 auto; /* 讓文字區塊在其容器中置中 */
+    padding: 40px;
+    
+}
+
+.aligned-text span { /* 設定對齊的文字 */
+    display: block;
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+.block-indent {
+    text-align: justify;   /* 使文字兩端對齊 */
+    display: block;        /* 讓 <span> 顯示為區塊元素，才能對齊 */
+    text-indent: 1.5em;    /* 首行縮排 */
+}
+
+
+
+
+
+
+
+.divider {/*分隔線*/
+    border: none;
+    height: 5px;
+    background-color: rgb(26, 120, 106);
+    margin: 20px 0;
+}
+
+footer {/*頁尾*/
+    background-color: rgb(26, 120, 106);
+    color: #b7b7b7;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vm;
+    margin-top: auto; 
+    margin-left: 18%;
+    font-family: "標楷體"
+}
+
+
+
+
+
