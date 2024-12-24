@@ -1,0 +1,10 @@
+import os
+from dotenv import load_dotenv
+
+import google.generativeai as generativeai
+
+load_dotenv()
+
+generativeai.configure(api_key="AIzaSyDHEz77ybg70G_HTO_smM-M_V5hKzWWJPg")
+response = generativeai.GenerativeaiModel('gemini-2.0-flash-exp').generate_content('你是誰 ?')
+print(response.text)
