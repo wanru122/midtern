@@ -370,3 +370,14 @@ button:hover {
     color: #666; /* 時間顏色 */
     margin-top: 5px; /* 上邊距 */
 }
+.tree {
+    /* 設定圖片的固定寬高 */
+    width: 150px;  /* 可以根據圖片的實際大小調整 */
+    height: 250px; /* 可以根據圖片的實際大小調整 */
+    position: flex;
+    /* bottom: 10px; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    /* 移除 transition，避免圖片變化時有過渡效果 */
+    /* transition: none;*/
+}
