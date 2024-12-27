@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>保健意識普及大作戰</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <img src="image/logo.jpg" class="logo">
+        <nav>
+                <a href="index.html" ><h3>首頁</h3></a>
+                <a href="健康分析工具/bmi/submit.html"><h3>健康分析工具</h3></a>
+                <a href="cb.html"><h3>Chat Bot</h3></a>
+                <a href="test.html"><h3>百萬小學堂</h3></a>
+                <a href="index.html#email"><h3>聯絡我們</h3></a>
+        </nav>
+    </header>
+    
+    <main>
+        <form id="healthForm">
+            <!-- BMI -->
+            <label for="bmi">BMI:</label>
+            <input type="number" id="bmi" name="bmi" required>
+            <br>
+
+            <label for="bmr">BMR:</label>
+            <input type="number" id="bmr" name="bmr" required>
+            <br>
+
+
+            <!-- 新增營養習慣欄位 -->
+            <label for="diet">飲食忌口:</label>
+            <textarea id="diet" name="diet" rows="3" placeholder="例如: 高糖、高鹽飲食等"></textarea>
+            <br>
+
+            <!-- 新增運動習慣下拉選單 -->
+            <label for="exercise">運動習慣:</label>
+            <select id="exercise" name="exercise">
+                <option value="輕微運動">幾乎不運動</option>
+                <option value="中度運動">一周1到2次</option>
+                <option value="高強度運動">一周3到4次</option>
+                <option value="無運動習慣">一周5次以上</option>
+            </select>
+            <br>
+
+            <!-- 目標 -->
+            <label for="goal">目標:</label>
+            <select id="goal" name="goal">
+                <option value="減重">減重</option>
+                <option value="增肌">增肌</option>
+                <option value="保持健康">保持健康</option>
+            </select>
+            <br>
+
+            <button type="button" onclick="submitHealthData()">提交</button>
+        </form>
+    
+        <h3>AI 給你的建議：</h3>
+        <div id="advice"></div>
+    
+        <script src="app.js"></script>
+    </main>
+        
+    <footer>
+        <div class="custom-footer">這是頁尾</div>
+    </footer>
+</body>
+</html>
