@@ -298,10 +298,19 @@ footer {
 .others_pic {
     display: inline;
     width: 150px; /* 調整重疊圖片的大小 */
-    height: auto; /* 保持比例 */
+    height: 150px; /* 保持比例 */
     border :2px solid black;
     border-radius : 50%;
+    transition: transform 0.2s, box-shadow 0.2s; /* 添加懸停效果 */
+    padding: 10px; /* 添加內邊距縮小圖片 */
+    box-sizing: border-box; /* 包含邊框與內邊距計算尺寸 */
 }
+
+.others_pic:hover {
+    transform: scale(1.1); /* 放大效果 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* 添加陰影 */
+}
+
 .others {
     padding: 10px 150px 10px;
 }
