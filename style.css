@@ -379,14 +379,35 @@ button:hover {
     color: #666; /* 時間顏色 */
     margin-top: 5px; /* 上邊距 */
 }
-.tree {
-    /* 設定圖片的固定寬高 */
-    width: 150px;  /* 可以根據圖片的實際大小調整 */
-    height: 250px; /* 可以根據圖片的實際大小調整 */
-    position: flex;
-    /* bottom: 10px; */
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
-    /* 移除 transition，避免圖片變化時有過渡效果 */
-    /* transition: none;*/
+
+
+#tomato-container {
+    position: fixed; /* 固定位置 */
+    bottom: 10px; /* 距離底部 10px */
+    right: 10px; /* 距離右側 10px */
+    width: 150px; /* 容器的寬度 */
+    height: 150px; /* 容器的高度 */
+    overflow: visible; /* 確保圖片能超出容器 */
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    background: none; /* 移除背景 */
+    border: none; /* 無邊框 */
 }
+
+#tomato {
+    position: absolute; /* 絕對定位 */
+    width: auto; /* 自動調整寬度 */
+    height: 100%; /* 圖片高度適應容器 */
+    bottom: 0; /* 讓圖片底部與容器底部對齊 */
+    right: 0; /* 讓圖片右邊與容器右邊對齊 */
+    transform-origin: bottom right; /* 以圖片的右下角為縮放基準點 */
+    transform: scale(1); /* 初始縮放比例 */
+    transition: transform 1s ease, opacity 1s ease; /* 添加動畫過渡 */
+    z-index: 1; /* 確保圖片在前方 */
+}
+
+
+
+
+
