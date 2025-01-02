@@ -1,0 +1,155 @@
+/* 通用樣式 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* 確保邊框內縮不影響布局 */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d3f9da; /* 柔和背景色 */
+    line-height: 1.6;
+}
+
+/* 主內容區域 */
+main {
+    background-color: white;
+    max-width: 1175px;
+    margin: 25px auto;
+    padding: 20px;
+    padding-bottom: 80px; /* 確保主內容不會被頁尾覆蓋 */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0); /* 提升主內容的層次感 */
+    border-radius: 10px;
+}
+
+/* 頁首樣式 */
+header {
+    background-color: rgb(26, 120, 106);
+    height: 75px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* 增加頁首陰影效果 */
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 5vw;
+    top: 0;
+    line-height: 75px;
+    font-size: 24px;
+}
+
+/* 導航樣式 */
+nav {
+    position: absolute;
+    right: 5vw;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: rgba(18, 83, 73, 0.9);
+    cursor: pointer;
+    transform: scale(1.1); /* 輕微放大效果 */
+}
+
+/* 表單樣式 */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    color: #1a786a;
+    margin-bottom: 1px; /* 減少與輸入框的距離 */
+}
+
+input, textarea, select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #05000068;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: #1a786a;
+    box-shadow: 0 0 5px rgba(26, 120, 106, 0.5);
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: rgb(26, 120, 106);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(18, 83, 73, 0.9);
+    transform: scale(1.01);
+}
+
+
+/* AI 建議區域 */
+#advice {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f6f4;
+    border-left: 5px solid #1a786a;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+}
+
+/* 頁尾樣式 */
+.custom-footer {
+    background-color: rgb(26, 120, 106);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    position: fixed;  
+    bottom: 0;        
+    left: 0;          
+    width: 100%;      
+    z-index: 1000;    
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1); /* 提升頁尾層次感 */
+}
+
+/* 響應式設計 */
+@media screen and (max-width: 768px) {
+    main {
+        margin: 10px;
+        padding: 15px;
+        padding-bottom: 100px; /* 在小螢幕下仍確保頁尾與內容有間距 */
+    }
+}
+
+
+
