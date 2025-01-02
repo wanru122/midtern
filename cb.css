@@ -156,13 +156,13 @@ section {
   transform: scale(0.95); /* 壓縮效果 */
 }
 footer {
+  text-align: center;
+  padding: 4px 0;  /* 減少上下邊距 */
+  margin-top: 10px; 
+  font-size: 14px;  /* 減小字體大小 */
+  position: fixed;  
+  bottom: 0;        
+  left: 0;          
+  width: 100%;      
   background-color: rgb(26, 120, 106);
-  color: #b7b7b7;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  line-height: 1.5em;
-  bottom :0%;
-}
+  color: #e6e5e5;}

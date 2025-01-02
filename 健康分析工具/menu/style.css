@@ -127,20 +127,17 @@ button:hover {
     font-size: 16px;
 }
 
-/* 頁尾樣式 */
-.custom-footer {
-    background-color: rgb(26, 120, 106);
-    color: white;
+footer {
     text-align: center;
-    padding: 10px 0;
-    font-size: 14px;
+    padding: 5px 0;  /* 減少上下邊距 */
+    margin-top: 10px; 
+    font-size: 14px;  /* 減小字體大小 */
     position: fixed;  
     bottom: 0;        
     left: 0;          
     width: 100%;      
-    z-index: 1000;    
-    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1); /* 提升頁尾層次感 */
-}
+    background-color: rgb(26, 120, 106);
+    color: #e6e5e5;}
 
 /* 響應式設計 */
 @media screen and (max-width: 768px) {

@@ -203,24 +203,23 @@ button:active {
 
 /* 頁尾樣式 */
 footer {
-    background-color: rgb(26, 120, 106);
-    color: white;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-    font-size: 14px;
+    padding: 5px 0;  /* 減少上下邊距 */
+    margin-top: 10px;
+    margin-bottom: -13px;  
+    font-size: 14px;  /* 減小字體大小 */
     position: fixed;  
     bottom: 0;        
     left: 0;          
     width: 100%;      
-    z-index: 1000;    
-}
+    background-color: rgb(26, 120, 106);
+    color: #e6e5e5;}
 
 /* 建議文字樣式 */
 .advice-text {
     color: #1f560e; /* 建議文字顏色，讓其與其他部分有明顯區別 */
     font-weight: bold;
-    margin-top: 20px; /* 與上方內容留白 */
+    margin-top: 30px; /* 與上方內容留白 */
     font-size: 1.2em; /* 調整文字大小 */
     display: block; /* 確保文字獨占一行 */
 }

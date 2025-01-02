@@ -221,8 +221,8 @@ main {/*主體*/
 
 footer {/*頁尾*/
     background-color: rgb(26, 120, 106);
-    color: #b7b7b7;
-    height: 50px;
+    color: #e0dddd;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
