@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>健康檢查提醒</title>
+    <link rel="stylesheet" href="health.css">
+</head>
+<body>
+<header>
+    <img src="image/logo.jpg" class="logo">
+    <nav>
+        <a href="index.html" ><h3>首頁</h3></a>
+        <a href="健康分析工具/bmi/submit.html"><h3>健康分析工具</h3></a>
+        <a href="cb.html"><h3>Chat Bot</h3></a>
+        <a href="test.html"><h3>百萬小學堂</h3></a>
+        <a href="health.html"><h3>健康檢查提醒</h3></a>
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+        <!-- 健康檢查提醒區 -->
+        <section class="form-container">
+            <h2>請輸入您的基本資料</h2>
+            <form id="reminderForm">
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+
+                <label for="email">電子郵件:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+
+                <label for="age">年齡:</label>
+                <input type="number" id="age" name="age" required>
+                <br>
+
+                <div class="gender-container">
+                    <label for="gender">性別:</label>
+                    <input type="radio" id="male" name="gender" value="男" required> 男
+                    <input type="radio" id="female" name="gender" value="女" required> 女
+                </div>
+
+                <label for="checkupDate">下次檢查日期:</label>
+                <input type="date" id="checkupDate" name="checkupDate" required>
+                <br>
+
+                <button type="button" onclick="setReminder()">設定提醒</button>
+            </form>
+        </section>
+
+        <!-- 分析結果 -->
+        <section class="form-container">
+            <h2>分析結果：</h2>
+            <div id="reminderMessage" class="reminder" style="display: none;"></div>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 保健巴拉拉. 為您服務</p>
+</footer>
+
+<script>
+    function setReminder() {
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const age = document.getElementById('age').value;
+        const gender = document.querySelector('input[name="gender"]:checked').value;
+        const checkupDate = document.getElementById('checkupDate').value;
+
+        if (name && email && age && gender && checkupDate) {
+            const reminderMessage = document.getElementById('reminderMessage');
+            reminderMessage.style.display = 'block';
+            reminderMessage.innerHTML = `您好 <b>${name}</b>，您的健康檢查提醒已設定為 <b>${checkupDate}</b>。我們將發送提醒至 <b>${email}</b>。保持健康！<br>根據您的年齡和性別，我們建議您進行以下檢查：<b>${getRecommendedCheckup(age, gender)}</b>`;
+
+            // 重置表單
+            document.getElementById('reminderForm').reset();
+        } else {
+            alert('請填寫所有欄位');
+        }
+    }
+
+    function getRecommendedCheckup(age, gender) {
+        if (gender === '男') {
+            if (age < 40) {
+                return '一般健康檢查';
+            } else if (age < 60) {
+                return '心血管檢查';
+            } else {
+                return '全面健康檢查';
+            }
+        } else if (gender === '女') {
+            if (age < 40) {
+                return '一般健康檢查';
+            } else if (age < 60) {
+                return '乳房檢查';
+            } else {
+                return '全面健康檢查';
+            }
+        }
+        return '一般健康檢查';
+    }
+</script>
+</body>
+</html>
