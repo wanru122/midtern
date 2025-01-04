@@ -284,3 +284,14 @@ footer {/*頁尾*/
     text-decoration: underline;
 }
 
+.footer2 {/*頁尾*/
+    background-color: rgb(26, 120, 106);
+    color: #e0dddd;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vm;
+    margin-top: auto; 
+
+}
