@@ -59,6 +59,9 @@ if web.status_code == 200:
         # 結束 HTML
         f.write('''
             </div>
+                <footer>
+                <p>&copy; 保健巴拉拉. 為您服務</p>
+                </footer>
         </body>
         </html>
         ''')
