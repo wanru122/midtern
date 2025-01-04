@@ -25,10 +25,19 @@ if web.status_code == 200:
         <html>
         <head>
             <title>疾病新聞</title>
-            <link rel="stylesheet" href="newssty.css">
+            <link rel="stylesheet" href="liang.css">
         </head>
         <body>
-            <h1>最新疾病相關新聞</h1>
+            <header>
+                <img src="image/logo.jpg" class="logo">
+                <nav>
+                <a href="index.html" ><h3>首頁</h3></a>
+                <a href="健康分析工具/bmi/submit.html"><h3>健康分析工具</h3></a>
+                <a href="cb.html"><h3>Chat Bot</h3></a>
+                <a href="test.html"><h3>百萬小學堂</h3></a>
+                <a href="index.html#email"><h3>聯絡我們</h3></a>
+                </nav>
+                </header>
             <div class="news-container">
         ''')
 
