@@ -20,7 +20,7 @@
 
 <main>
     <div class="container">
-        <!-- 健康檢查提醒區 -->
+
         <section class="form-container">
             <h2>請輸入您的基本資料</h2>
             <form id="reminderForm">
@@ -50,7 +50,7 @@
             </form>
         </section>
 
-        <!-- 分析結果 -->
+ 
         <section class="form-container">
             <h2>分析結果：</h2>
             <div id="reminderMessage" class="reminder" style="display: none;"></div>
@@ -75,7 +75,7 @@
             reminderMessage.style.display = 'block';
             reminderMessage.innerHTML = `您好 <b>${name}</b>，您的健康檢查提醒已設定為 <b>${checkupDate}</b>。我們將發送提醒至 <b>${email}</b>。保持健康！<br>根據您的年齡和性別，我們建議您進行以下檢查：<b>${getRecommendedCheckup(age, gender)}</b>`;
 
-            // 重置表單
+            
             document.getElementById('reminderForm').reset();
         } else {
             alert('請填寫所有欄位');
