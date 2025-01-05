@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d3f9da;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: rgb(26, 120, 106);
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 250px;
+}
+
+nav {
+    position: absolute;
+    right: 5vw;
+    padding: 8px 0;
+    background-color: rgba(26, 120, 106, 0.833);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    border-radius: 50px;
+    background-color: rgba(18, 83, 73, 0.833);
+    cursor: pointer;
+    transition: 
+        scale 0.1s ease-in,
+        opacity 0.5s ease-in,
+        filter 0.1s ease-in;
+    &:hover{
+        scale: 1.2;
+    }
+}
+h1 {
+    color: white;
+    margin: 0;
+    font-size: 3.2vw;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2.2vw; 
+    color: black;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+
+main {
+    padding: 100px 5vw 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="number"],
+.form-container input[type="date"],
+.form-container select {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container .gender-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-container .gender-container label {
+    margin-right: 10px;
+}
+
+.form-container .gender-container input[type="radio"] {
+    margin-right: 5px;
+}
+
+.form-container button {
+    background-color: rgb(26, 120, 106);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.form-container button:hover {
+    background-color: rgb(18, 83, 73);
+    transform: scale(1.1);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.result-container h2 {
+    color: rgb(26, 120, 106);
+}
+
+.reminder {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+footer {
+    background-color: rgb(26, 120, 106);
+    color: #c2bcbc;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.8em;
+    padding: 15px;
+}

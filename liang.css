@@ -234,4 +234,95 @@ footer {/*頁尾*/
 
 
 
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding: 20px;
+    position: relative; 
+    z-index: 1; 
+    margin-top: 40px;
+}
+.news-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 30%;
+    height: 500px;
+    overflow: hidden;
+    text-align: center;
+}
 
+.news-card h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.news-card p {
+    font-size: 1em;
+    color: #666;
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.news-card img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.news-card a {
+    color: #429a45;
+    text-decoration: none;
+}
+
+.news-card a:hover {
+    text-decoration: underline;
+}
+
+.back-to-top a {
+    text-decoration: none;
+    color: rgb(26, 120, 106);
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    background-color: rgba(239, 254, 252, 0.7);
+    padding: 10px 15px;
+    border-radius: 20%;
+    color: white;
+    font-size: 1.5em;
+}
+
+
+.footer2 {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(26, 120, 106);
+    border-top: 1px solid #ccc;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 40px;
+}
+.footer2 p {
+    margin: 0;
+    font-size: 14px;
+    color: #ffffff;
+}

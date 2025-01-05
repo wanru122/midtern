@@ -6,17 +6,18 @@
   <title>Chatbot</title>
   <link rel="stylesheet" href="cb.css">
 </head>
+<script src="talk.js"></script>
 
 <body>
-<header>
-  <img src="image/logo.jpg" class="logo">
-  <nav>
-    <a href="index.html"><h3>首頁</h3></a>
-    <a href="健康分析工具/bmi/submit.html"><h3>健康分析工具</h3></a>
-    <a href="cb.html"><h3>Chat Bot</h3></a>
-    <a href="test.html"><h3>百萬小學堂</h3></a>
-    <a href="index.html#email"><h3>聯絡我們</h3></a>
-  </nav>
+  <header>
+    <a href="index.html" ><h3><img src="image/logo.jpg" class="logo"></h3></a>
+    <nav>
+            <a href="news.html"><h3>相關新聞</h3></a>
+            <a href="健康分析工具/bmi/submit.html"><h3>健康分析工具</h3></a>
+            <a href="cb.html"><h3>Chat Bot</h3></a>
+            <a href="test.html"><h3>百萬小學堂</h3></a>
+            <a href="health.html"><h3>健康檢查提醒</h3></a>
+    </nav>
 </header>
 
 <section>
@@ -31,75 +32,6 @@
 <footer>
   <h3>© 2024 健保八逼巴拉拉</h3>
 </footer>
-
-<script>
-  // Chatbot 配置
-  // token here
-
-  // 發送消息到 Azure OpenAI API
-  async function sendMessageToAPI(message) {
-    try {
-      const response = await fetch(endpointUrl, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "api-key": apiKey,
-        },
-        body: JSON.stringify({
-          messages: [{ role: "user", content: message }],
-          max_tokens: 100,
-          temperature: 0.7,
-        }),
-      });
-
-      if (!response.ok) {
-        throw new Error(`HTTP Error: ${response.status}`);
-      }
-
-      const data = await response.json();
-      return data.choices[0].message.content;
-    } catch (error) {
-      console.error("Error sending message to API:", error);
-      return "抱歉，我無法處理您的請求，請稍後再試。";
-    }
-  }
-
-  // 更新聊天記錄
-  function updateChat(role, message) {
-    const chatContainer = document.getElementById("chat-container");
-    const messageElement = document.createElement("div");
-    messageElement.classList.add("message", role === "user" ? "user-message" : "bot-message");
-    messageElement.textContent = message;
-    chatContainer.appendChild(messageElement);
-    chatContainer.scrollTop = chatContainer.scrollHeight;
-  }
-
-  // 初始化事件監聽
-  document.addEventListener("DOMContentLoaded", () => {
-    const sendButton = document.getElementById("send-button");
-    const userInput = document.getElementById("user-input");
-
-    sendButton.addEventListener("click", async () => {
-      const userMessage = userInput.value.trim();
-      if (userMessage === "") return;
-
-      // 顯示用戶訊息
-      updateChat("user", userMessage);
-      userInput.value = "";
-
-      // 顯示機器人回應
-      const botResponse = await sendMessageToAPI(userMessage);
-      updateChat("bot", botResponse);
-    });
-
-    // 允許按 Enter 發送消息
-    userInput.addEventListener("keypress", async (event) => {
-      if (event.key === "Enter") {
-        sendButton.click();
-      }
-    });
-  });
-</script>
 </body>
 
 <footer>

@@ -79,13 +79,14 @@ section {
 
 footer {
     background-color: rgb(26, 120, 106);
-    color: #e6e5e5;
+    color: #c2bcbc;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 14px;
     line-height: 1.8em;
+    padding: 15px;
 }
 
 .container {
