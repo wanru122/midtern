@@ -4,22 +4,21 @@ import os
 from datetime import datetime, timedelta
 import re
 
-# 加载环境变量
 load_dotenv()
 apikey = os.getenv("API_KEY")
 
-# 获取当前日期及默认日期范围
+
 today = datetime.today()
 three_months_ago = today - timedelta(days=30)
 default_from_date = three_months_ago.strftime('%Y-%m-%d')
 default_to_date = today.strftime('%Y-%m-%d')
 
-# 与健康、疾病相关的关键词列表
+
 relevant_keywords = ["健康", "疾病", "醫療", "醫生", "醫院", "保健", "免疫", "疫苗", "藥物", "治療", "養生", "疫情", "心理"]
 
-# 设置默认查询参数
+
 query_params = {
-    'q': "健康 OR 疾病 OR 醫療 OR 醫生 OR 醫院 OR 保健 OR 免疫 OR 疫苗",  # 默认搜索关键字
+    'q': "健康 OR 疾病 OR 醫療 OR 醫生 OR 醫院 OR 保健 OR 免疫 OR 疫苗", 
     'from': default_from_date,
     'to': default_to_date,
 }
@@ -39,7 +38,7 @@ params = {
     'sortBy': 'popularity',
 }
 
-
+#抓錯
 try:
     web = requests.get('https://newsapi.org/v2/everything', params=params)
     web.raise_for_status() 
