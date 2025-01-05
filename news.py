@@ -38,7 +38,7 @@ params = {
     'sortBy': 'popularity',
 }
 
-#抓錯
+
 try:
     web = requests.get('https://newsapi.org/v2/everything', params=params)
     web.raise_for_status() 
@@ -121,10 +121,12 @@ with open('news.html', 'w+', encoding='utf-8') as f:
         </div>
         
         <script>
+        window.onload = function() {{
             setTimeout(function() {{
                 location.reload();
-            }}, 7200000); 
-        </script>
+            }}, 7200000);
+        }};
+    </script>
     </body>
     </html>
     ''')
