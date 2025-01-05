@@ -34,20 +34,31 @@ header a {
 }
 
 nav {
-    display: flex;
-    gap: 20px;
+    position: absolute;
+    right: 5vw;
+    padding: 8px 0;
+    background-color: rgba(26, 120, 106, 0.833);
 }
+
 nav a {
     color: white;
     text-decoration: none;
     padding: 14px 20px;
     display: inline-block;
 }
-nav a:hover {
-    border-bottom: 2px solid white;
-    transition: border-bottom 0.3s;
-}
 
+nav a:hover {
+    border-radius: 50px;
+    background-color: rgba(18, 83, 73, 0.833);
+    cursor: pointer;
+    transition: 
+        scale 0.1s ease-in,
+        opacity 0.5s ease-in,
+        filter 0.1s ease-in;
+    &:hover{
+        scale: 1.2;
+    }
+}
 h1 {
     color: white;
     margin: 0;
@@ -152,13 +163,13 @@ main {
 
 
 footer {
-    text-align: center;
-    padding: 5px 0;
-    font-size: 14px;
     background-color: rgb(26, 120, 106);
-    color: #e6e5e5;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    color: #c2bcbc;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.8em;
+    padding: 15px;
 }
