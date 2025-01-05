@@ -23,19 +23,58 @@ main {
 }
 
 /* 頁首樣式 */
+
 header {
     background-color: rgb(26, 120, 106);
     height: 75px;
     width: 100%;
-    position: relative;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* 增加頁首陰影效果 */
+    position: fixed;
+    z-index: 10;
+    top: 0%;
 }
 
 header a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
+
+.logo {
+    margin-top: 13px;
+    width: 250px;
+    color: white;
+    position: absolute;
+    left: 5vw;
+    line-height: 75px;
+}
+
+nav {
+    position: absolute;
+    right: 5vw;
+    padding: 8px 0;
+    background-color: rgba(26, 120, 106, 0.833);
+    top: 0%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    border-radius: 50px;
+    background-color: rgba(18, 83, 73, 0.833);
+    cursor: pointer;
+    transition: 
+        scale 0.1s ease-in,
+        opacity 0.5s ease-in,
+        filter 0.1s ease-in;
+    &:hover{
+        scale: 1.2;
+    }
+}
+
 
 h1 {
     color: white;
@@ -44,29 +83,6 @@ h1 {
     top: 0;
     line-height: 75px;
     font-size: 24px;
-}
-
-/* 導航樣式 */
-nav {
-    position: absolute;
-    right: 5vw;
-    padding: 0;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 14px 20px;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
-    transition: all 0.3s ease-in-out;
-}
-
-nav a:hover {
-    background-color: rgba(18, 83, 73, 0.9);
-    cursor: pointer;
-    transform: scale(1.1); /* 輕微放大效果 */
 }
 
 /* 表單樣式 */
