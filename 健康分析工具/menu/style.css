@@ -9,10 +9,11 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #d3f9da; /* 柔和背景色 */
     line-height: 1.6;
+    margin-top: 100px; /* 確保頁首不會遮擋內容 */
 }
 
 /* 主內容區域 */
-main {
+section {
     background-color: white;
     max-width: 1175px;
     margin: 25px auto;
@@ -20,6 +21,7 @@ main {
     padding-bottom: 80px; /* 確保主內容不會被頁尾覆蓋 */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0); /* 提升主內容的層次感 */
     border-radius: 10px;
+    
 }
 
 /* 頁首樣式 */
