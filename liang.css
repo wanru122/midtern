@@ -305,15 +305,24 @@ footer {/*頁尾*/
 }
 
 
-.footer2 {/*頁尾*/
+.footer2 {
+    text-align: center;
+    padding: 20px;
     background-color: rgb(26, 120, 106);
-    color: #e0dddd;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
+    border-top: 1px solid #ccc;
+    position: relative;
     width: 100%;
-    bottom: 0;
+    margin-top: 20px;
+}
 
+h2 {
+    color: #000000;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 40px;
+}
+.footer2 p {
+    margin: 0;
+    font-size: 14px;
+    color: #ffffff;
 }
