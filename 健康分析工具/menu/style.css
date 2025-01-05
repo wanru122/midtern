@@ -148,7 +148,7 @@ footer {
     padding: 5px 0;  /* 減少上下邊距 */
     margin-top: 10px; 
     font-size: 14px;  /* 減小字體大小 */
-    position: fixed;  
+    position: flex;  
     bottom: 0;        
     left: 0;          
     width: 100%;      
