@@ -4,25 +4,31 @@ import os
 from datetime import datetime, timedelta
 import re
 
-
+# 加载环境变量
 load_dotenv()
 apikey = os.getenv("API_KEY")
 
+# 获取当前日期及默认日期范围
 today = datetime.today()
 three_months_ago = today - timedelta(days=30)
 default_from_date = three_months_ago.strftime('%Y-%m-%d')
 default_to_date = today.strftime('%Y-%m-%d')
 
+# 与健康、疾病相关的关键词列表
 relevant_keywords = ["健康", "疾病", "醫療", "醫生", "醫院", "保健", "免疫", "疫苗", "藥物", "治療", "養生", "疫情", "心理"]
 
+# 设置默认查询参数
 query_params = {
     'q': "健康 OR 疾病 OR 醫療 OR 醫生 OR 醫院 OR 保健 OR 免疫 OR 疫苗",  # 默认搜索关键字
     'from': default_from_date,
     'to': default_to_date,
 }
 
+
 user_query = input(f"請輸入關鍵字（按 Enter 使用預設值 '健康 或 疾病'）：") or query_params['q']
 query_params['q'] = user_query
+
+
 params = {
     'q': query_params['q'],
     'language': 'zh',
@@ -30,12 +36,19 @@ params = {
     'to': query_params['to'],
     'apiKey': apikey,
     'pageSize': 18,  
-    'sortBy': 'popularity',  
+    'sortBy': 'popularity',
 }
 
-web = requests.get('https://newsapi.org/v2/everything', params=params)
+
+try:
+    web = requests.get('https://newsapi.org/v2/everything', params=params)
+    web.raise_for_status() 
+except requests.exceptions.RequestException as e:
+    print(f"请求失败: {e}")
+    web = None 
 
 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
 
 with open('news.html', 'w+', encoding='utf-8') as f:
     f.write(f'''
@@ -59,11 +72,9 @@ with open('news.html', 'w+', encoding='utf-8') as f:
         <div class="news-container">
     ''')
 
-
-    if web.status_code == 200:
+    if web and web.status_code == 200:
         articles = web.json().get('articles', [])
         filtered_articles = []
-
 
         for article in articles:
             title = article.get('title', '').lower()
@@ -80,8 +91,7 @@ with open('news.html', 'w+', encoding='utf-8') as f:
                 url = article.get('url', '#')
                 image_url = article.get('urlToImage', 'default_image.jpg') 
 
-
-                keyword = query_params['q'].strip('"') 
+                keyword = query_params['q'].strip('"')
                 highlighted_description = re.sub(rf'({re.escape(keyword)})', r'<strong>\1</strong>', description, flags=re.IGNORECASE)
 
                 f.write(f'''
@@ -96,8 +106,11 @@ with open('news.html', 'w+', encoding='utf-8') as f:
             f.write('<h2>未找到符合條件的新聞。</h2>')
 
     else:
-        error_message = f"無法獲取新聞數據，錯誤碼: {web.status_code}"
-        f.write(f'<div class="error"><h2>新聞加載失敗</h2><p>{error_message}</p></div>')
+        if web:
+            error_message = f"無法獲取新聞數據，錯誤碼: {web.status_code}"
+            f.write(f'<div class="error"><h2>新聞加載失敗</h2><p>{error_message}</p></div>')
+        else:
+            f.write('<div class="error"><h2>無法獲取新聞數據</h2><p>請檢查您的 API 密鑰或網絡連接。</p></div>')
 
     f.write(f'''
         <div class="back-to-top">
