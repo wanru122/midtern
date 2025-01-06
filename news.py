@@ -122,14 +122,6 @@ with open('news.html', 'w+', encoding='utf-8') as f:
             </div>
         </footer>
         
-        
-        <script>
-        window.onload = function() {{
-            setTimeout(function() {{
-                location.reload();
-            }}, 7200000);
-        }};
-    </script>
     </body>
     </html>
     ''')
