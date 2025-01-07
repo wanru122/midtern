@@ -43,7 +43,7 @@ try:
     web = requests.get('https://newsapi.org/v2/everything', params=params)
     web.raise_for_status() 
 except requests.exceptions.RequestException as e:
-    print(f"请求失败: {e}")
+    print(f"請求失敗: {e}")
     web = None 
 
 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
