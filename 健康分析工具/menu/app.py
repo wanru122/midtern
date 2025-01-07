@@ -8,7 +8,8 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": ["http://127.0.0.1:3000", "http://127.0.0.1:3002"]}})
 
 # 設定 Azure OpenAI API 密鑰和端點
-
+azure_api_key = '0' 
+endpoint_url = "0"
 
 @app.route('/get_advice', methods=['POST'])
 def get_advice():
