@@ -1,0 +1,1129 @@
+[
+    {
+        "title": "酒商用无酒精饮料吸引年轻消费者",
+        "description": "美国卫生局局长上周呼吁为酒精饮品添加致癌风险警告，认为酒精是一种公认的、可预防的致癌因素，美国每年约有 10 万例癌症病例和 2 万例癌症死亡病例与酒精有关。对此啤酒和烈酒制造商已经做好了准备，对于因健康担忧而放弃饮酒的消费者，它们推出了无酒精饮料。盖洛普去年 8 月的调查显示，近半数的美国人表示每天喝一杯或两杯酒对健康有害，这是该调查 23 年以来的最高比例。年轻人最有可能认为饮酒有害健康。调查还显示，只有 58% 的成年人称自己喝酒，低于 2022 年的 67%。对酒精的健康担忧推动了无酒精饮料市场的增长，分…",
+        "url": "https://www.solidot.org/story?sid=80245",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "AI 蛋白質設計革命：2024 諾貝爾化學獎背後的醫學奇蹟",
+        "description": "2024 諾貝爾化學獎揭示AI在蛋白質設計上的突破，從AlphaFold到RFdiffusion，AI如何顛覆藥物研發，縮短對抗癌症、病毒等疾病的距離？",
+        "url": "https://pansci.asia/archives/378388",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "中藥、阿育吠陀、「餓死癌症」⋯⋯全世界有哪些癌症替代療法？它們真的有療效嗎？",
+        "description": "坊間流傳偏方可治癒癌症，但專家警告勿輕信。替代療法缺乏科學證據，延誤治療恐危及生命。正規療法是基於科學研究，並根據個別病情制定。輔助療法如針灸、瑜珈等，可與正規療法並用，但須諮詢醫生。切勿聽信網路謠言，尋求專業醫療建議才是上策。",
+        "url": "https://www.thenewslens.com/article/246191",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "哈佛醫學團隊研發FaceAge AI從臉部辨識生理年齡，「量化醫生直覺」助臨床評估",
+        "description": "哈佛醫學院研發出一款臉部辨識AI「FaceAge」，可由臉部老化特徵評估生理年齡。研究發現癌症患者的臉部看起來比同齡者老五歲，吸菸者則老二至三歲。此技術論文雖仍在同儕審查階段，但團隊希望未來不僅能協助診斷，也能幫助病患了解自身健康，及早就醫。",
+        "url": "https://www.thenewslens.com/article/246939",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "腸癌增加原因劍指飲食，研究：超加工食品不能碰",
+        "description": "薯條、洋芋片、泡麵、香腸等各種加工食品對許多人而言是安慰食物，這些食物也愈來愈出現在外食世代的日常飲食當中，但越來越多證據顯示，這是導致健康惡化的一個因素。一項美國政府資助的新研究發現，癌症與富含加工食品的飲食引起的發炎有關，甚至超加工食品當中常見的食用油，也是導致癌症的因素。 先前研究就發現，富含...",
+        "url": "https://technews.tw/2024/12/13/cancer-related-to-what-we-eat-everyday/",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "癌症免疫療法可能導致心臟動脈過度發炎，增加心臟病發風險",
+        "description": "免疫療法是近年癌症治療一大突破，尤其「免疫檢查點抑制劑」（immune checkpoint inhibitors，ICI），改變許多患者命運。然近期美國紐約大學研究顯示，這類藥物雖能活化免疫系統對抗癌細胞，卻也可能增加中風與心臟病風險，ICI 治療時需謹慎監測潛在副作用以免憾事發生。 免疫檢查點（...",
+        "url": "https://technews.tw/2024/12/15/newfound-mechanism-may-explain-why-some-cancer-treatments-boost-risk-of-heart-disease/",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "慧榮捐贈診療設備助力新竹台大分院推動醫療創新",
+        "description": "NAND 快閃記憶體控制晶片廠商慧榮科技捐贈內視鏡診療設備，助力新竹台大分院推動醫療創新並提升癌症病人的照護品質。本次捐贈的「經氣管內視鏡細徑超音波系統」與「經鼻咽喉內視鏡檢查系統」已正式投入使用，為肺癌與頭頸癌的早期診斷及治療提供關鍵技術支援，並進一步提升醫療效率與病人舒適度。新竹台大分院於 12...",
+        "url": "https://technews.tw/2024/12/25/simo-donates-diagnostic-and-treatment-equipment-to-help-hsinchu-national-taiwan-university-branch-promote-medical-innovation/",
+        "source": "NewsAPI",
+        "sentiment": "😐"
+    },
+    {
+        "title": "「放射線治療」結合標靶與抗體藥物，可望大幅降低副作用",
+        "description": "放射線治療（radiation therapy，放療）與手術及化學治療並列為癌症三大治療支柱。然而放療對健康組織的損害一直難以避免，急需突破與改善。近日加州大學舊金山分校（University of California, San Francisco，UCSF）開發新療法，結合標靶藥物、抗體與放射性...",
+        "url": "https://technews.tw/2024/12/26/how-this-cancer-drug-could-make-radiation-a-slam-dunk-therapy/",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "AI 助早期乳癌檢測率提高 21%",
+        "description": "新研究，選擇用 AI 增強（AI Enhanced）的乳房 X 光檢查女性，癌症檢測率比未選擇女性高 21%。研究於今年美國放射學會年會（RSNA）公布，顯示選擇 AI 增強乳房檢查的女性，超過 30% 選擇每年檢查都報名。 DeepHealth 支援技術，參加計畫的女性 X 光片將由乳房放射科醫生...",
+        "url": "https://technews.tw/2024/12/12/ai-is-detecting-more-breast-cancer-cases/",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "三明治族注意！保誠人壽推出首張新制核准「分紅綜合型」保單",
+        "description": "上有老、下有小的三明治族，根據 2024 年調查，三明治族對於未來的主要擔憂，仍以健康及經濟為主，保誠人壽與渣打國際商業銀行今日宣布推出「保誠人壽新美利 29 外幣終身壽險」，獨創的分紅綜合型保險，特別從健康保障及資產配置出發，滿足三明治族的需求。 根據衛生福利部的統計，癌症、心血管疾病持續位居國人...",
+        "url": "https://finance.technews.tw/2024/12/09/dividend-sharing/",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "損害生殖能力與發炎，研究：微塑膠是禍害",
+        "description": "生活中的廢棄塑膠真的太多了，無論是垃圾、磨損或是使用中的物品，釋放出的塑膠微粒正在危害這一代人。美國科學家發現，老化的汽車輪胎和分解的垃圾，正在向空氣中排放微小的塑膠碎片，可能會加劇不孕症、結腸癌和呼吸道疾病。 全球企業每年生產近 4.6 億噸塑膠，預計到 2050 年將增加至 11 億噸。微塑膠主...",
+        "url": "https://technews.tw/2024/12/20/microplastics-damage-human-health/",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "紐約大學：低劑量口服「米諾地爾」助化療脫髮的乳癌患者重拾自信",
+        "description": "掉髮是癌症化療常見副作用，對患者心理影響深遠。對許多女性患者來說，脫髮可能影響自信心並引發焦慮，甚至導致放棄化療。如何有效解決化療脫髮副作用，無疑是醫學界的重要課題。 米諾地爾（minoxidil）最初治療高血壓，擴張血管平滑肌降低血壓。此外還能增加頭皮血液循環，促進毛囊營養供應促進毛髮生長，也能治...",
+        "url": "https://technews.tw/2024/12/27/hair-growth-drug-safe-at-low-doses-for-breast-cancer-patients/",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "港大醫學院研究發現服用「氯氮平」導致血癌的風險極低",
+        "description": "【Now新聞台】港大醫學院研究發現，服用高效抗精神病藥物「氯氮平」導致血癌的風險極低。 港大醫學院利用醫管局2001年至2022年的40萬份醫療數據，追蹤當中約1萬名診斷為精神分裂症的患者，記錄他們由首次使用「氯氮平」開始7年間的健康狀況，發現使用「氯氮平」導致血癌的風險極低，平均每1萬人用藥1年，僅增加少於6宗血癌，其他癌症風險亦無增加，顯示此藥的臨床風險相當低，建議衞生署及各地藥監機構毋須進一步限制氯氮平使用或發出特別警告，以便及早用藥有效治療精神病。#要聞",
+        "url": "https://hk.news.yahoo.com/%E6%B8%AF%E5%A4%A7%E9%86%AB%E5%AD%B8%E9%99%A2%E7%A0%94%E7%A9%B6%E7%99%BC%E7%8F%BE%E6%9C%8D%E7%94%A8-%E6%B0%AF%E6%B0%AE%E5%B9%B3-%E5%B0%8E%E8%87%B4%E8%A1%80%E7%99%8C%E7%9A%84%E9%A2%A8%E9%9A%AA%E6%A5%B5%E4%BD%8E-081307659.html",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "【資訊包】1949至1975年出生者可參與大腸癌篩查",
+        "description": "【Now新聞台】衞生署周一宣布，1949至1975年出生的香港居民，由星期三(明年1月1日)起將符合資格參加政府資助的大腸癌篩查計劃，呼籲合資格人士盡早參加計劃，同時透過實踐健康生活，以預防大腸癌。計劃資助所有50至75歲、沒有大腸癌徵狀的香港居民，每兩年到私營機構接受一次篩查。有意參加計劃的人士應先約見已參與計劃的基層醫療醫生，並由該醫生安排大便免疫化學測試。如大便免疫化學測試結果呈陽性，參加者會獲轉介到已參與計劃的大腸鏡醫生接受政府資助的大腸鏡檢查。如測試結果呈陰性，參加者應於兩年後進行覆檢。截至12月1日，…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_f075752e-5415-4692-bd77-76cd1c02dcd1",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "立法會通過降烈酒稅決議案　丘應樺：可促進香港高端烈酒貿易",
+        "description": "立法會通過施政報告提出降低烈酒稅的決議案。 多名議員發言支持議案，經民聯的林健鋒表示樂見減烈酒稅，相信能進一步推動香港成為國際頂尖的酒類貿易及分銷中心，創造龐大經濟效益，惠及旅遊、餐飲、展覽等多個行業，用美酒增添香港美食天堂的盛名，有利推動盛事發展。 自由黨的邵家輝歡迎政府減烈酒稅，相信即使減烈酒稅後，市民懂得判斷要飲幾多酒，亦不會用啤酒杯飲烈酒。 民建聯周浩鼎指出，飲酒要適可宜止，並非減稅就等同鼓勵市民暴飲，減稅只為促進相關貿易及經濟發展，相信如果清晰表達有關信息就能夠作出平衡，市民亦會明白。 醫療衞生界議員林…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5f79654b-b99b-4fea-add1-ba3da7801e5e",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "Plop 便便日記 App ：每日紀錄便便形狀、顏色、頻率等症狀，全面分析掌握腸道健康！還可上傳「黃金照」進行分析（iOS/Android）",
+        "description": "便秘問題讓許多人感到困擾，而排便狀況也攸關健康狀況。尤其在台灣，大腸癌的問題也長年是國人死因的前幾名，如何及早發現各種腸道健康問題尋求專業醫療的協助也是一大課題。這款「Plop 便便日記」App 就值得推薦，即便免費版本也可進行基本的便便紀錄，從每次觀察排便狀況開始記錄自己的健康變化，付費版甚至可以進行更完整的照片上傳等功能。\nThe post Plop 便便日記 App ：每日紀錄便便形狀、顏色、頻率等症狀，全面分析掌握腸道健康！還可上傳「黃金照」進行分析（iOS/Android） appeared first…",
+        "url": "https://www.koc.com.tw/archives/579264",
+        "source": "NewsAPI",
+        "sentiment": "😐"
+    },
+    {
+        "title": "全世界有哪些癌症替代療法？它們真的有療效嗎？",
+        "description": "前印度板球運動員兼政治家納喬特·辛格·西杜表示，他妻子在飲食加入檸檬水、生薑黃、蘋果醋、印楝葉、聖羅納、南瓜、紅石榴、油甘子、紅菜頭和核桃等食物後，她的癌症現已痊癒。",
+        "url": "https://www.bbc.com/zhongwen/articles/c159q00z5qko/trad",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "以病人為優先　癌症資源中心榮獲特色表揚團體獎",
+        "description": "中國醫藥大學新竹附設醫院-癌症資源中心(簡稱癌資中心)，參與由衛生福利部國民健康署主辦的113年癌症資源中心特色表揚團體獎，榮獲「全程照護王」，院長陳自諒表示，全台共有105家醫院癌資中心，本院於報獎醫院名單中脫穎而出，也是新竹地區唯一獲獎院所，恭喜癌資中心，也期盼繼續以病人優先病人第一的熱忱，服務癌友和家屬。",
+        "url": "https://tw.news.yahoo.com/%E4%BB%A5%E7%97%85%E4%BA%BA%E7%82%BA%E5%84%AA%E5%85%88-%E7%99%8C%E7%97%87%E8%B3%87%E6%BA%90%E4%B8%AD%E5%BF%83%E6%A6%AE%E7%8D%B2%E7%89%B9%E8%89%B2%E8%A1%A8%E6%8F%9A%E5%9C%98%E9%AB%94%E7%8D%8E-042200887.html",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "跨域結盟 台南抗癌國家隊成立",
+        "description": "台灣第1個由醫界、產業界發起的「台南抗癌國家隊」，在成功大學醫學院長沈延盛、宣捷集團創辦人宣明智號召下，26日成立。沈延盛說，目標是增加篩檢率、提高陽性追蹤率，雙管齊下，達到2030年癌症死亡率下降；宣明智說，抗癌國家隊從台南出發，除對國家做出貢獻，也盼造福全世界對付癌症。",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a168ff53-3784-4873-910a-b72ab8de1f28",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "癌症化療手腳麻木　中醫調解可消除副作用",
+        "description": "CNEWS匯流新聞網記者謝東明／台北報導 1名60歲劉姓婦人，因子宮頸癌初期，接受手術與化學治療。化療1個月後，開始出現手腳麻木不適的症狀，嚴重影響生活品質，新北市恩主公醫院中醫部表示，婦人接受中醫治療，經過兩週的中藥調理，手腳麻木症狀緩解了一半以上。而劉姓婦人也說，中醫不僅消除了她對化療副作用的擔憂，也幫助她以更正面的心態，面對接下來的癌症治療。 恩主公醫...",
+        "url": "https://tw.news.yahoo.com/%E7%99%8C%E7%97%87%E5%8C%96%E7%99%82%E6%89%8B%E8%85%B3%E9%BA%BB%E6%9C%A8-%E4%B8%AD%E9%86%AB%E8%AA%BF%E8%A7%A3%E5%8F%AF%E6%B6%88%E9%99%A4%E5%89%AF%E4%BD%9C%E7%94%A8-074333174.html",
+        "source": "NewsAPI",
+        "sentiment": "😐"
+    },
+    {
+        "title": "中市今年擴大癌症及成人健康篩檢服務",
+        "description": "[NOWnews今日新聞]為提升市民健康，台中市政府衛生局自114年起，配合衛生福利部擴大對象及項目提供健康檢查服務。此次擴大範圍包括成人健康檢查及癌症篩檢服務，並新增人類乳突病毒(HPV)檢測服務。...",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_61a81107-e892-4418-82d9-41aab72d6142",
+        "source": "NewsAPI",
+        "sentiment": "😐"
+    },
+    {
+        "title": "苗栗老翁食慾差吐泡沫痰 就醫確診食道癌第4期",
+        "description": "（中央社記者管瑞平苗栗縣27日電）苗栗84歲老翁因體重異常下降、食慾差且進食會感到噁心、吐出白色泡沫痰，就醫確診罹患食道癌第4期。醫師提醒，食道癌早期症狀不明顯，若吞嚥困難、體重異常跡象應及早檢測。",
+        "url": "https://tw.news.yahoo.com/%E8%8B%97%E6%A0%97%E8%80%81%E7%BF%81%E9%A3%9F%E6%85%BE%E5%B7%AE%E5%90%90%E6%B3%A1%E6%B2%AB%E7%97%B0-%E5%B0%B1%E9%86%AB%E7%A2%BA%E8%A8%BA%E9%A3%9F%E9%81%93%E7%99%8C%E7%AC%AC4%E6%9C%9F-064305246.html",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "台南健康大禮包3大項重要措施 114年元旦上線",
+        "description": "（中央社記者張榮祥台南27日電）台南市長黃偉哲今天宣布，「台南健康大禮包」民國114年元旦上線，涵蓋婚後孕前健康檢查、新罹癌者生育力保存、擴大公費癌症篩檢與成人預防保健服務對象等3項重要措施。",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_e1e0823b-9a16-47a4-ae16-88f642ca1862",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "金門「平均壽命」沒資料 議員質詢關切 (圖)",
+        "description": "金門縣議會第8屆第4次定期會10日進行縣政總質詢，無黨籍議員吳佩雯（前）針對內政部資料無法查詢到金門平均壽命提出質詢，要求衛生局應確實查核金門常住人口平均壽命、疾病原因、多數人罹患何種癌症等資料，才能擬定長期政策發展。",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_44f90ec6-0ff3-4f19-b72e-773927d02d59",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "考績差0.5及格　婦控國軍高雄總醫院霸凌",
+        "description": "[NOWnews今日新聞]高雄一名在國軍高雄總醫院服務超過30年的女子指控，自己因為罹患2個癌症必須常請假，期間她發現，同事們不但在社群網站上留言霸凌她，讓她身心俱疲，而且今年回到職場工作時，院方擅自...",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_45a9118f-b228-459d-a317-80fce1093189",
+        "source": "NewsAPI",
+        "sentiment": "😐"
+    },
+    {
+        "title": "沈慶京又遭羈押！他氣到從輪椅站起來怒吼　律師上午急提抗告",
+        "description": "[周刊王CTWANT] 沈慶京今晨0點多搭上囚車被送往台北看守所羈押，沈的律師胡原龍上午10點多低調到北院遞抗告狀，所持理由首先仍以沈身罹癌症等多重疾病、先前在押期間至少4次戒護就醫與住院、健康狀況不佳，亟須交保妥善治療。胡原龍在抗告中還指出，針對檢方主張沈慶京2024年8月28日上午被搜...",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_b7d38e3f-7278-411e-9722-79fad28f8443",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "北市114年新政 敬老卡點數折抵聯醫掛號費等8項",
+        "description": "台北市觀光傳播局整理民國114年新政上路；1月1日起上路的有敬老點數扣抵北市聯醫7院區門診掛號費、長者收容安置補助費調增、醫療性凍卵擴大機構辦理、人工生殖增加補助、孕婦唐氏症篩檢新增NITP檢測、婚後孕前健檢提高補助、擴大補助40歲以上警消肺癌篩檢、旅宿業限用一次性備品等8項。",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d49249ea-70ef-44a2-a717-27b796158451",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "每年导致10万美国人患癌 美国卫生局局长呼吁给酒精饮品贴上致癌标签",
+        "description": "美国卫生局局长是维韦克·穆尔蒂（Vivek Murthy）周五表示，酒精类饮品应该张贴警示标签，表明其存在引发癌症的风险。此外，考虑到癌症风险，建议的饮酒量也应该重新评估。美国卫生局的报告显示，尽管已经有越来越多的科学研究表明酒精与癌症之间的关联，尤其是在过去几十年中，这一关系变得越来越明确，但大多数美国人仍然没有意识到酒精可能增加患癌症的风险。\r\n许多人认为，只要他们的饮酒量不超过或低于目前的指导标准（女性每天一杯，男性每天两杯），就不会对他们的健康或身体造成风险。但穆尔蒂指出，美国每年有大约10万例癌症病例和…",
+        "url": "https://www.cnbeta.com.tw/articles/tech/1468362.htm",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "美国和欧洲酒类板块全线大跌 酒精可以通过多种机制导致癌症？",
+        "description": "一则报告令美国和欧洲酒类板块全线大跌。据最新消息，美国卫生局局长维韦克·穆尔蒂在发布的报告中表示，美国酒精类饮品应该张贴警示标签，表明其存在引发癌症的风险。此外，考虑到癌症风险，建议的饮酒量也应该重新评估。\r\n受此影响，当地时间周五，美股、欧股市场的酒类股票全线下跌，其中，法国人头马君度集团股价大跌5%，百威英博和帝亚吉欧等大型酒企股价亦集体下挫。但需要指出的是，任何关于健康警告标签的强制性修改都需要得到美国国会的批准。目前，尚不清楚穆尔蒂的建议是否能在美国国会获得两党支持。分析人士认为，即使获得通过，任何标签变…",
+        "url": "https://www.cnbeta.com.tw/articles/tech/1468600.htm",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "OpenAI o1 pro 深评博士医学论文，震惊顶尖免疫学家",
+        "description": "圣诞马拉松的第一天，OpenAI 对外发布了 o1 pro。近乎全网都震惊于 o1 pro 高达博士水平的数学、科学、编程能力。最近，OpenAI 总裁 Greg Brockman 在 X 上转发了世界顶尖免疫学专家 Derya Unutmaz 的帖子。\r\n这位专家分享了他与 o1 pro 的一次合作经历，他让 o1 pro 批判性地评估了自己和学生写的一篇关于一种特定免疫细胞 —— 粘膜相关不变 T 细胞（MAIT 细胞）及其在癌症中作用的综述文章。让他感到震惊的是，o1 pro 在这个领域的洞察比他还要深刻 …",
+        "url": "https://www.cnbeta.com.tw/articles/tech/1466862.htm",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "世界顶级科学杂志《自然》2024年度十大人物揭晓 中国科学家李春来、徐沪济上榜！！",
+        "description": "世界权威科学期刊 《Nature》 公布了 2024 年度十大科学人物榜单（Nature’s 10）。值得祝贺的是，今年有两位中国科学家入选。一位是来自中国人民解放军海军军医大学的内科医生徐沪济，他利用供体来源的基因编辑T细胞，成功治疗了毁灭性的自身免疫性疾病。\r\n这一基于T细胞的疗法，在癌症治疗中取得成功，并为前沿的CAR-T治疗细胞的批量生产带来了希望。另一位入选的则是嫦娥六号任务副总设计师、中国科学院国家天文台研究员李春来。他是首位亲手接触嫦娥六号今年返回地球的月球土壤样本的科学家。据报道，除上述两位来自中…",
+        "url": "https://www.cnbeta.com.tw/articles/tech/1461792.htm",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "DeepMind天才科学家疑自杀 41岁SuperGLUE之父英年早逝",
+        "description": "就在刚刚，噩耗传来：年仅41岁的GoogleDeepMind天才科学家Felix Hill英年早逝。他的一篇博客揭露了AI研究者面临的巨大压力：几大公司的竞争，研究方向的迷失，让他即使积累了大量财富，内心也依然痛苦。AI研究者们悲痛表示，这个消息令人心碎。\r\n就在刚刚，一个令人悲伤的消息传来。GoogleDeepMind研究科学家Felix Hill，于2024年12月5日英年早逝，年仅41岁。自2023年初以来，他一直在与严重的精神疾病作斗争。期间，他表现出了重度抑郁和严重的自杀倾向，终于还是没有扛过去。Fel…",
+        "url": "https://www.cnbeta.com.tw/articles/tech/1468130.htm",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "人们为什么怀念马云？",
+        "description": "曾几何时，马云是中国商业界的一道重要风景。他每次公开露面都是意气风发，金句频出。那时的马云，也正是当时中国经济蓬勃发展的一个缩影。后来，由于一些意外事件，马云长期旅居国外，很少在国内露面，更没有再在公开场合发表过演讲。\r\n而就在近日，马云意外出席了蚂蚁集团20周年的庆典仪式，并现场发表了公开演讲。马云此次的亮相，在社交媒体上引起了广泛关注，很多人都对此感到振奋。作为一名企业家，马云为什么能够受到大众如此热烈的欢迎呢？笔者认为，这是因为马云本身其实代表了一种普通大众心之所向的精神。首先，马云从一位身材矮小，长相普通…",
+        "url": "https://www.cnbeta.com.tw/articles/tech/1462032.htm",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "英王查理斯三世據報癌症治療進展順利　病情受控",
+        "description": "確診患癌的英王查理斯三世，據報治療進展順利，病情受控。 路透社引述白金漢宮消息人士報道，76歲的查理斯接受的治療一直朝著正面方向發展，治療週期將持續到明年，健康狀況沒有任何變化。 白金漢宮在今年2月公布，查理斯在接受前列腺肥大矯正手術住院期間，被診斷患癌，但未有提及患上甚麼癌症。查理斯4月恢復履行公職，10月訪問澳洲及南太平洋島國薩摩亞，並在印度短暫停留，期間入住康健中心，醫療團隊一直密切觀察他的身體情況。",
+        "url": "https://hk.news.yahoo.com/%E8%8B%B1%E7%8E%8B%E6%9F%A5%E7%90%86%E6%96%AF%E4%B8%89%E4%B8%96%E6%93%9A%E5%A0%B1%E7%99%8C%E7%97%87%E6%B2%BB%E7%99%82%E9%80%B2%E5%B1%95%E9%A0%86%E5%88%A9-%E7%97%85%E6%83%85%E5%8F%97%E6%8E%A7-093119967.html",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "英國王室｜白金漢宮消息：查理斯三世癌症治療進展順利 病情受控",
+        "description": "確診患癌的英王查理斯三世，據報治療進展順利，病情受控。 路透社周五引述白金漢宮消息人士報道，76歲的查理斯接受的治療一直朝著正面方向發展，治療周期將持續到明年，健康狀況沒有任何變化。",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_c497263b-8fd0-4987-8f4a-fb8790932356",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "共信攜手馬偕醫院 執行口腔癌人體臨床試驗",
+        "description": "共信(6617)25日宣布，旗下PTS癌症新藥在2023年取得中國藥證後，為擴大適應症，將與馬偕醫院攜手執行口腔鱗狀上皮細胞癌人體臨床試驗。",
+        "url": "https://tw.stock.yahoo.com/news/%E5%85%B1%E4%BF%A1%E6%94%9C%E6%89%8B%E9%A6%AC%E5%81%95%E9%86%AB%E9%99%A2-%E5%9F%B7%E8%A1%8C%E5%8F%A3%E8%85%94%E7%99%8C%E4%BA%BA%E9%AB%94%E8%87%A8%E5%BA%8A%E8%A9%A6%E9%A9%97-113110284.html",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "慧智基因2025進軍癌健檢市場，集團禾馨健康管理中心優先布局",
+        "description": "【財訊快報／記者何美如報導】慧智基因(6615)18日舉辦法說會，董事長蘇怡寧表示，明年將進軍癌症健檢市場，目前市場上尚無類似產品，會先佈局在集團內的禾馨健康管理中心。目前此項技術已有國際醫學期刊NEJM的科學證據支持，能比傳統癌症的檢查更早發出罹癌的警報。慧智第三季本業營運轉虧，EPS 0.08元。前三季累計營收僅持平，但毛利率提升2.37個百分點至31.02%，稅後淨利2378萬元，EPS 1.11元。前11月累計營收4.18億元，年下滑1.87%。癌症為十大死因之首，罹癌後的基因檢測與標靶藥物治療固然重要，…",
+        "url": "https://tw.stock.yahoo.com/news/%E6%85%A7%E6%99%BA%E5%9F%BA%E5%9B%A02025%E9%80%B2%E8%BB%8D%E7%99%8C%E5%81%A5%E6%AA%A2%E5%B8%82%E5%A0%B4-%E9%9B%86%E5%9C%98%E7%A6%BE%E9%A6%A8%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83%E5%84%AA%E5%85%88%E5%B8%83%E5%B1%80-041713584.html",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "台南抗癌國家隊成立！展現醫界與產業界抗癌決心",
+        "description": "財經中心／綜合報導呼應賴清德總統於「健康台灣」政見提出「強化國家癌症防治計畫」，目標在2030年台灣的癌症死亡能減少三分之一。在台南成大醫學院沈延盛院長及產業界大老宣明智董事長的攜手號召下，台灣第一個由醫界及產業界自主發起的抗癌聯盟「台南抗癌國家隊」，於昨日（12／26）於台南正式簽署結盟成立。",
+        "url": "https://tw.news.yahoo.com/%E5%8F%B0%E5%8D%97%E6%8A%97%E7%99%8C%E5%9C%8B%E5%AE%B6%E9%9A%8A%E6%88%90%E7%AB%8B-%E5%B1%95%E7%8F%BE%E9%86%AB%E7%95%8C%E8%88%87%E7%94%A2%E6%A5%AD%E7%95%8C%E6%8A%97%E7%99%8C%E6%B1%BA%E5%BF%83-084659715.html",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "共信-KY擴大癌症新藥PTS適應症，口腔鱗狀上皮細胞癌臨床獲馬偕通過",
+        "description": "【財訊快報／記者何美如報導】共信-KY(6617)積極擴大PTS癌症新藥適應症，25日代子公司公告，向馬偕紀念醫院提出的「對甲苯磺醯胺( PTS)合併紫杉醇(Paclitaxel)治療復發/不可切除/轉移性的鱗狀細胞癌口腔癌的療效」試驗案，已取得人體研究倫理審查委員會通過，針對患者進行腫瘤精準治療，將PTS藥物直接穿刺注入口腔腫瘤內，消滅癌細胞。根據Allied Market Research(2020)的估計，口腔癌治療市場規模預計將從2020年的19億美元成長到2027年的32億美元，年複合成長率約為7%。頭…",
+        "url": "https://tw.stock.yahoo.com/news/%E5%85%B1%E4%BF%A1-ky%E6%93%B4%E5%A4%A7%E7%99%8C%E7%97%87%E6%96%B0%E8%97%A5pts%E9%81%A9%E6%87%89%E7%97%87-%E5%8F%A3%E8%85%94%E9%B1%97%E7%8B%80%E4%B8%8A%E7%9A%AE%E7%B4%B0%E8%83%9E%E7%99%8C%E8%87%A8%E5%BA%8A%E7%8D%B2%E9%A6%AC%E5%81%95%E9%80%9A%E9%81%8E-003938627.html",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "宣明智發起 台南抗癌國家隊 成軍",
+        "description": "呼應賴清德總統於「健康台灣」政見，台灣首個由產、醫界發起的抗癌聯盟「台南抗癌國家隊」宣布成立。發起人宣明智表示，聯盟將結合產醫資源，將產業界傑出的技術與產品，做為第一線醫生及病患在面對癌症時的強力後盾。",
+        "url": "https://tw.stock.yahoo.com/news/%E5%AE%A3%E6%98%8E%E6%99%BA%E7%99%BC%E8%B5%B7-%E5%8F%B0%E5%8D%97%E6%8A%97%E7%99%8C%E5%9C%8B%E5%AE%B6%E9%9A%8A-%E6%88%90%E8%BB%8D-201000973.html",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "宣明智號召 台南抗癌國家隊成立",
+        "description": "呼應賴清德總統於「健康台灣」政見，台灣第一個由產、醫界發起的抗癌聯盟「台南抗癌國家隊」宣布成立。發起人宣明智表示，聯盟將結合產醫資源，將產業界傑出的技術與產品，做為第一線醫生及病患在面對癌症時的強力後盾。",
+        "url": "https://tw.stock.yahoo.com/news/%E5%AE%A3%E6%98%8E%E6%99%BA%E8%99%9F%E5%8F%AC-%E5%8F%B0%E5%8D%97%E6%8A%97%E7%99%8C%E5%9C%8B%E5%AE%B6%E9%9A%8A%E6%88%90%E7%AB%8B-091453893.html",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "中天「上療漾」併用免疫療法臨床解盲，免疫療法反應率提高3倍",
+        "description": "【財訊快報／記者何美如報導】中天生技(4128)今日公布，已上市新藥「上療漾」與全球銷售第一的癌症免疫療法藥物keytruda（吉舒達）併用人體探索性試驗解盲結果，比較單獨使用keytruda，可以提高3倍免疫療法反應率(75%)，由原來的4.5個月中位數無惡化存活期(PFS)提高到12個月以上，其中腫瘤完全消失率(CR)達到12.5%，顯示「上療漾」併用免疫治療有助於提升晚期肺癌病人存活期。中天執行副總陳菀均表示，美國默沙東(MSD)的keytruda年銷售已達到250億美元，但臨床整體反應率低，目前持續在全球…",
+        "url": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E5%A4%A9-%E4%B8%8A%E7%99%82%E6%BC%BE-%E4%BD%B5%E7%94%A8%E5%85%8D%E7%96%AB%E7%99%82%E6%B3%95%E8%87%A8%E5%BA%8A%E8%A7%A3%E7%9B%B2-%E5%85%8D%E7%96%AB%E7%99%82%E6%B3%95%E5%8F%8D%E6%87%89%E7%8E%87%E6%8F%90%E9%AB%983%E5%80%8D-081500469.html",
+        "source": "NewsAPI",
+        "sentiment": "😐"
+    },
+    {
+        "title": "助肺癌、頭頸癌早期診療！慧榮科技捐新竹臺大分院內視鏡設備",
+        "description": "NAND快閃記憶體控制晶片廠慧榮科技捐贈內視鏡診療設備，助力新竹臺大分院推動醫療創新並提升癌症病人的照護品質。本次捐贈的「經氣管內視鏡細徑超音波系統」與「經鼻咽喉內視鏡檢查系統」已正式投入使用，為肺癌與頭頸癌的早期診斷及治療提供關鍵技術支援，並進一步提升醫療效率與病人舒適度。",
+        "url": "https://tw.news.yahoo.com/%E6%85%A7%E6%A6%AE%E6%8D%90%E8%B4%88%E5%85%A7%E8%A6%96%E9%8F%A1%E8%A8%BA%E7%99%82%E8%A8%AD%E5%82%99-%E5%8A%A9%E6%96%B0%E7%AB%B9%E8%87%BA%E5%A4%A7%E5%88%86%E9%99%A2%E9%86%AB%E7%99%82%E5%89%B5%E6%96%B0-035450359.html",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "歲末傳愛 元富證券關懷癌友",
+        "description": "新光金控旗下元富證券與癌症希望基金會從2012年至今，每年合作舉辦「送愛到病房」活動，元富證券董事長陳俊宏於12月25日特別前往臺大醫院與志工參與關懷活動。",
+        "url": "https://tw.stock.yahoo.com/news/%E6%AD%B2%E6%9C%AB%E5%82%B3%E6%84%9B-%E5%85%83%E5%AF%8C%E8%AD%89%E5%88%B8%E9%97%9C%E6%87%B7%E7%99%8C%E5%8F%8B-201000173.html",
+        "source": "NewsAPI",
+        "sentiment": "😐"
+    },
+    {
+        "title": "朗齊生醫*與達運精密簽MOU，攜手打造抗癌藥物新劑型",
+        "description": "【財訊快報／記者何美如報導】專注標靶抗癌新藥開發的朗齊生醫*(6876)10日宣布與微針技術廠達運精密(6120)正式簽訂合作意向書（MOU），雙方將攜手打造革命性的抗癌藥物新劑型，透過尖端微針技術，重新定義藥物傳遞方式，為癌症患者帶來更高效、便捷的治療選擇。隨著精準醫療的快速崛起，癌症治療正朝著多元化與個性化方向發展。朗齊已建立涵蓋胰臟癌、肝癌等多種腫瘤適應症的新藥路線，發展中新藥包括與國家衛生研究院（國衛院）、財團法人生物技術開發中心（DCB）及中國醫藥大學等授權合作的多項專利小分子新藥，以及自行開發的類病毒…",
+        "url": "https://tw.stock.yahoo.com/news/%E6%9C%97%E9%BD%8A%E7%94%9F%E9%86%AB-%E8%88%87%E9%81%94%E9%81%8B%E7%B2%BE%E5%AF%86%E7%B0%BDmou-%E6%94%9C%E6%89%8B%E6%89%93%E9%80%A0%E6%8A%97%E7%99%8C%E8%97%A5%E7%89%A9%E6%96%B0%E5%8A%91%E5%9E%8B-013817806.html",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "金萬林去年營收年增20% 今年續成長",
+        "description": "【記者柯安聰台北報導】金萬林（6645）12月合併營收為0.6億元，年增率17.17%；累計全年營收為5.02億元，較前年增加20.85%。金萬林表示，公司佈局精準醫療檢測市場成效逐步顯現，尤其癌症用...",
+        "url": "https://tw.news.yahoo.com/%E9%87%91%E8%90%AC%E6%9E%97%E5%8E%BB%E5%B9%B4%E7%87%9F%E6%94%B6%E5%B9%B4%E5%A2%9E20-%E4%BB%8A%E5%B9%B4%E7%BA%8C%E6%88%90%E9%95%B7-174335454.html",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "育世博候選新藥ACE1831目標明年獲美孤兒藥認定，美國以外推進臨床試驗",
+        "description": "【財訊快報／記者何美如報導】育世博-KY(6976)核心候選藥物ACE1831在IgG4相關疾病（IgG4-RD），繼11月取得美國FDA核准執行1b/2a期臨床試驗，計劃2025年上半陸續取得其他國家IND核准，以及美國FDA的孤兒藥資格認定（Orphan Drug Designation）。ACE2016計劃在2025年完成雙位數病人的收案，探索其在EGFR陽性實體腫瘤治療的應用潛力。育世博研發團隊在癌症和自體免疫學領域，近一年成功推動了多個新產品進入臨床試驗階段，執行長暨共同創辦人蕭世嘉12日在法說會說明旗…",
+        "url": "https://tw.stock.yahoo.com/news/%E8%82%B2%E4%B8%96%E5%8D%9A%E5%80%99%E9%81%B8%E6%96%B0%E8%97%A5ace1831%E7%9B%AE%E6%A8%99%E6%98%8E%E5%B9%B4%E7%8D%B2%E7%BE%8E%E5%AD%A4%E5%85%92%E8%97%A5%E8%AA%8D%E5%AE%9A-%E7%BE%8E%E5%9C%8B%E4%BB%A5%E5%A4%96%E6%8E%A8%E9%80%B2%E8%87%A8%E5%BA%8A%E8%A9%A6%E9%A9%97-005333040.html",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "藥華藥2024年漲逾7成 血癌新藥全球三期結果Q1公布",
+        "description": "藥華藥 2024 全年漲幅超過 7 成，且全年三大法人買超 2.7 萬張，為上市櫃生技醫療類股中最多。另外，用於治療原發性血小板過多症 (ET) 血癌新藥 Ropeg，全球三期臨床試驗預計第一季公布結果，若結果順利有望在 2026 年上市。",
+        "url": "https://tw.stock.yahoo.com/news/%E8%97%A5%E8%8F%AF%E8%97%A52024%E5%B9%B4%E6%BC%B2%E9%80%BE7%E6%88%90-%E8%A1%80%E7%99%8C%E6%96%B0%E8%97%A5%E5%85%A8%E7%90%83%E4%B8%89%E6%9C%9F%E7%B5%90%E6%9E%9Cq1%E5%85%AC%E5%B8%83-025406013.html",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "【理財最前線】3大檢視補缺口　2025各險種保單Best Buy出列",
+        "description": "2024年可說是台灣醫療險出現重大變化的一年，不僅上半年有超過20張醫療險保單停售，現在市場上住院實支醫療險也只接受正本理賠；因此，歲末年終之際，應將家中堆疊的保單翻出，從壽險、醫療險、癌症險、重大傷病險到意外險等，好好檢視是否有買到足夠的保障。",
+        "url": "https://tw.news.yahoo.com/%E7%90%86%E8%B2%A1%E6%9C%80%E5%89%8D%E7%B7%9A-3%E5%A4%A7%E6%AA%A2%E8%A6%96%E8%A3%9C%E7%BC%BA%E5%8F%A3-2025%E5%90%84%E9%9A%AA%E7%A8%AE%E4%BF%9D%E5%96%AEbest-buy%E5%87%BA%E5%88%97-212931936.html",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "育世博核心候選產品ACE1831和ACE2016 明年臨床試驗進展加速推進",
+        "description": "育世博-KY(6976)12日法說會宣布旗下核心候選產品ACE1831和ACE2016的臨床試驗進展在明年之發展計畫；席間，也展示最新研發技術平台-抗體雙藥物複合體 (Antibody-Dual-Drugs Conjugation, AD2C) 的研究成果，進一步鞏固在癌症及免疫疾病領域的領先地位。",
+        "url": "https://tw.stock.yahoo.com/news/%E8%82%B2%E4%B8%96%E5%8D%9A%E6%A0%B8%E5%BF%83%E5%80%99%E9%81%B8%E7%94%A2%E5%93%81ace1831%E5%92%8Cace2016-%E6%98%8E%E5%B9%B4%E8%87%A8%E5%BA%8A%E8%A9%A6%E9%A9%97%E9%80%B2%E5%B1%95%E5%8A%A0%E9%80%9F%E6%8E%A8%E9%80%B2-110455540.html",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "金萬林布局精準醫療檢測成效發酵 2024全年營收5億元年增逾2成",
+        "description": "金萬林 (6645-TW) 積極布局精準醫療檢測市場成效逐步顯現，特別是癌症用藥檢測及精準健康業務表現優於預期，推升 2024 年下半年營收每月皆呈現雙位數成長，也同步帶動 2024 年全年營收達 5.02 億元，年增超過 2 成。",
+        "url": "https://tw.stock.yahoo.com/news/%E9%87%91%E8%90%AC%E6%9E%97%E5%B8%83%E5%B1%80%E7%B2%BE%E6%BA%96%E9%86%AB%E7%99%82%E6%AA%A2%E6%B8%AC%E6%88%90%E6%95%88%E7%99%BC%E9%85%B5-2024%E5%85%A8%E5%B9%B4%E7%87%9F%E6%94%B65%E5%84%84%E5%85%83%E5%B9%B4%E5%A2%9E%E9%80%BE2%E6%88%90-111637418.html",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "聖安生醫標靶外泌體藥物遞送技術授權星國大廠，簽約金和授權金1.5億元",
+        "description": "【財訊快報／記者何美如報導】聖安生醫(6926)24日宣布，與新加坡臨床等級外泌體生產廠商ESCO Aster(以下簡稱「ESCO」)簽訂HLA-G標靶外泌體藥物遞送技術平台授權及共同開發產品備忘錄(MOU)，雙方合作期加速開發裝載抗癌藥物。透過此項授權聖安將可獲得1.5億元台幣簽約金與授權金，以及5%產品銷售衍生利益金。聖安生醫被國際著名資料庫公司列名外泌體全球十大開發公司，HLA-G標靶外泌體藥物遞送載體(SOB100)已經開發成功，即將申請美國FDA臨床試驗。ESCO 為外泌體及幹細胞相關產品生產代工的國際…",
+        "url": "https://tw.stock.yahoo.com/news/%E8%81%96%E5%AE%89%E7%94%9F%E9%86%AB%E6%A8%99%E9%9D%B6%E5%A4%96%E6%B3%8C%E9%AB%94%E8%97%A5%E7%89%A9%E9%81%9E%E9%80%81%E6%8A%80%E8%A1%93%E6%8E%88%E6%AC%8A%E6%98%9F%E5%9C%8B%E5%A4%A7%E5%BB%A0-%E7%B0%BD%E7%B4%84%E9%87%91%E5%92%8C%E6%8E%88%E6%AC%8A%E9%87%911-5%E5%84%84%E5%85%83-010350108.html",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "焦點股：中天切入腫瘤合併免疫治療，為旗下新藥添新適應症商機",
+        "description": "【財訊快報／徐玉君】中天(4128)集團在新藥研發領域積極切入腫瘤免疫治療，其中，已上市的新藥「上療漾」與全球銷售第一的癌症免疫療法藥物keytruda(吉舒達)併用之人體探索性試驗解盲，相較於單獨使用keytruda，可提高3倍免疫療法反應率(75%)，由原來的4.5個月中位數無惡化存活期(PFS)提高到12個月以上，顯示「上療漾」併用免疫治療有助於提升晚期肺癌病人存活期。再加上，公司旗下轉投資的永笙KY(4178)，其細胞治療新藥RegeneCyte獲美FDA核發上市核可，且適用於治療高達80項適應症，顯見轉…",
+        "url": "https://tw.stock.yahoo.com/news/%E7%84%A6%E9%BB%9E%E8%82%A1-%E4%B8%AD%E5%A4%A9%E5%88%87%E5%85%A5%E8%85%AB%E7%98%A4%E5%90%88%E4%BD%B5%E5%85%8D%E7%96%AB%E6%B2%BB%E7%99%82-%E7%82%BA%E6%97%97%E4%B8%8B%E6%96%B0%E8%97%A5%E6%B7%BB%E6%96%B0%E9%81%A9%E6%87%89%E7%97%87%E5%95%86%E6%A9%9F-012355414.html",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "白袍科技2／「機器人藥師」小房間調劑化療藥物　老面板廠養出全球X光感測金雞母",
+        "description": "[周刊王CTWANT] 現場工作人員介紹，這隻「智能化療調劑機器手臂」是有特殊任務，「癌症化療藥物調配的過程，精準不容誤差，需仰賴專門訓練過的藥師，在特製的負壓空間中調配。然而，化療藥物具有毒性，要是調配的劑量不對，甚至殘藥處理出錯，對於病人或操作的藥師都有危險性。」這部台灣土...",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2bdd79b9-7c76-4f8e-a2ea-c3b3649e44cc",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "首創「頸椎險」！安達人壽總經理張志杰：「2025年主打碎片利基新商品」",
+        "description": "安達人壽首次進駐台北大巨蛋園區，繼癌症險納入達文西機械手臂外科手術的給付後，總經理張志杰透露將針對年輕3C族群，常常滑手機滑到頸椎出問題，首創健康險納入「頸椎」保障，可領12萬元保障。他展望2025年將針對現代環境科技及國人生活改變，安達將儘量走利基、特定市場商品，「走不同的路」。",
+        "url": "https://tw.stock.yahoo.com/news/%E9%A6%96%E5%89%B5%E3%80%8C%E9%A0%B8%E6%A4%8E%E9%9A%AA%E3%80%8D%EF%BC%81%E5%AE%89%E9%81%94%E4%BA%BA%E5%A3%BD%E7%B8%BD%E7%B6%93%E7%90%86%E5%BC%B5%E5%BF%97%E6%9D%B0%EF%BC%9A%E3%80%8C2025%E5%B9%B4%E4%B8%BB%E6%89%93%E7%A2%8E%E7%89%87%E5%88%A9%E5%9F%BA%E6%96%B0%E5%95%86%E5%93%81%E3%80%8D-072011256.html",
+        "source": "NewsAPI",
+        "sentiment": "😐"
+    },
+    {
+        "title": "焦點股：藥華藥業績持續穩定成長創新高，明年新適應症ET解盲再添利基",
+        "description": "【財訊快報／徐玉君】藥華藥(6446)旗下罕見血癌新藥Ropeg銷售持續創新高，為今年前三季營運創下EPS 5.23元新高佳績；而新適應症拓展也持續有新進度，用於治療原發性血小板過多症(ET)的全球第三期臨床試驗(SURPASS ET)共收入174個ET患者，最後一位受試者已於2024/11/12完成試驗(LPLV)，預計將於2025年初取得試驗結果(top-line results)，屆時將開始申請各國藥證，包括美國、中國及日本等，若一切進展順利，有機會於2026年取證，公司已提前布局行銷前準備。此外，除了血液…",
+        "url": "https://tw.stock.yahoo.com/news/%E7%84%A6%E9%BB%9E%E8%82%A1-%E8%97%A5%E8%8F%AF%E8%97%A5%E6%A5%AD%E7%B8%BE%E6%8C%81%E7%BA%8C%E7%A9%A9%E5%AE%9A%E6%88%90%E9%95%B7%E5%89%B5%E6%96%B0%E9%AB%98-%E6%98%8E%E5%B9%B4%E6%96%B0%E9%81%A9%E6%87%89%E7%97%87et%E8%A7%A3%E7%9B%B2%E5%86%8D%E6%B7%BB%E5%88%A9%E5%9F%BA-012146243.html",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "和黃醫藥同意以約6.08億美元出售子公司股權，專注核心業務",
+        "description": "【財訊快報／劉敏夫】外電報導指出，生物製藥公司和黃醫藥同意以約6.08億美元的價格出售旗下一家醫療健保公司的股份，以籌集資金並專注於核心業務。根據和黃醫藥週三在香港交易所披露的聲明，和黃醫藥將把上海和黃藥業45%的權益出售給金浦健服和上海醫藥。聲明指稱，上海醫藥已持有上海和黃藥業50%股權，交易完成後將持有60%的權益。如果上海和黃藥業未達到一定的利潤門檻，則和黃醫藥需要向買家支付利潤補償。和黃醫藥在公告中表示，預計這筆交易將取得約4.77億美元的稅前收益，將用於推動發展核心業務，包括治療癌症和免疫性疾病的靶向療…",
+        "url": "https://tw.stock.yahoo.com/news/%E5%92%8C%E9%BB%83%E9%86%AB%E8%97%A5%E5%90%8C%E6%84%8F%E4%BB%A5%E7%B4%846-08%E5%84%84%E7%BE%8E%E5%85%83%E5%87%BA%E5%94%AE%E5%AD%90%E5%85%AC%E5%8F%B8%E8%82%A1%E6%AC%8A-%E5%B0%88%E6%B3%A8%E6%A0%B8%E5%BF%83%E6%A5%AD%E5%8B%99-000944971.html",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "終結檳榔三不管，《檳榔防制法》草案出爐，規範檳榔銷售、嚼食、農藥重金屬殘留",
+        "description": "檳榔上市超過30年，終將正式納管！衛福部於 12 月 18 日預告《檳榔健康危害防制法》（以下簡稱「《檳榔防制法》」）草案，將限制檳榔銷售管道、不得販售給兒少、限定嚼食場域、建立原料檢驗機制等，但原住民族基於傳統文化而有使用檳榔則不受此限制。（閱讀檳榔調查專題，點選這裡）\n台灣檳榔防制暨口腔癌防治聯盟（以下簡稱「聯盟」）與學者，對草案皆予以肯定，同時提醒，檳榔、荖葉與添加物的檢驗標準仍有待後續明訂並落實稽查。檳榔農則表示，現有的檳榔廢園轉作成效有限，農業部應針對農民不願轉作原因，調整輔導計畫內容。\n檳榔正式納入食…",
+        "url": "https://www.newsmarket.com.tw/blog/216006/",
+        "source": "NewsAPI",
+        "sentiment": "😢"
+    },
+    {
+        "title": "OpenAI o1 pro 深评博士医学论文，震惊顶尖免疫学家",
+        "description": "圣诞马拉松的第一天，OpenAI 对外发布了 o1 pro。近乎全网都震惊于 o1 pro 高达博士水平的数学、科学、编程能力。最近，OpenAI 总裁 Greg Brockman 在 X 上转发了世界顶尖免疫学专家 Derya Unutmaz 的帖子。这位专家分享了他与 o1 pro 的一次合作经历，他让 o1 pro 批判性地评估了自己和学生写的一篇关于一种特定免疫细胞 —— 粘膜相关不变 T 细胞（MAIT 细胞）及其在癌症中作用的综述文章。让他感到震惊的是，o1 pro 在这个领域的洞察比他还要深刻 ——…",
+        "url": "https://www.ithome.com/0/820/952.htm",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "研究：苹果、谷歌、三星等智能手表表带中含高浓度有毒化学物质",
+        "description": "IT之家 12 月 29 日消息，《环境科学与技术快报》（Environmental Science & Technology Letters）杂志本月发表的一项研究表明，许多流行的智能手表表带中含有高浓度的有毒“永久性化学物质”—— 多氟烷基和全氟烷基物质（PFAS）。这类化学物质因其不粘和防水特性而被广泛应用于厨具、服装等产品中，但其难以降解、易在人体内累积的特性，可能导致癌症、免疫系统疾病，甚至儿童发育问题等严重的健康风险。据IT之家了解，该研究针对一种名为氟橡胶（fluoroelastomer）的表带材料…",
+        "url": "https://www.ithome.com/0/820/913.htm",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "谷歌 DeepMind 天才科学家 Felix Hill 英年早逝，年仅 41 岁",
+        "description": "就在刚刚，一个令人悲伤的消息传来。谷歌 DeepMind 研究科学家 Felix Hill，于 2024 年 12 月 5 日英年早逝，年仅 41 岁。自 2023 年初以来，他一直在与严重的精神疾病作斗争。期间，他表现出了重度抑郁和严重的自杀倾向，终于还是没有扛过去。Felix 是一位学术成果颇丰的 AI 学者，谷歌总引用量为 19680，参与创建了自然语言理解基准 GLUE 和 SuperGLUE。Felix Hill 本科在牛津大学学习数学，随后在剑桥大学拿到了语言学硕士学位，和计算语言学博士学位。毕业后，…",
+        "url": "https://www.ithome.com/0/822/041.htm",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "现在的中国可怕到无法想象(图)",
+        "description": "疫情中随便封城，把全国人都拘禁在家中；强制疫苗，造成了几乎全国人身体素质的下降，白血病、癌症、红斑狼疮等绝症的发病率也大大增加；健康的年轻人成了人矿，每年一万多失踪人口大多是健康的年轻人，强摘器官成了公开的秘密……",
+        "url": "https://www.secretchina.com/news/gb/2024/12/09/1074129.html",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "癌症時鐘快轉17秒！肺癌連2年霸榜 腸癌乳癌緊追其後",
+        "description": "【NOW健康 陳曉彤／台北報導】新冠疫情期間許多民眾畏懼就醫，癌症篩檢人數減少，讓111年癌症新增人數大增8531人，平均每4分2秒就有1人罹癌，癌症時鐘一口氣快轉17秒，均創下近10年記錄。衛福部國健署今（19）日公布111年癌症登記報告10大癌症排行仍由肺癌蟬聯拿下首位，大腸癌、女性乳癌則分別位居2、3名。 ▲新冠肺炎明顯影響民眾受檢意願，讓111年癌症新增人數大增8531人。（圖／國民健康署提供） 癌症新案例飆增！ 攝護腺竄升男性癌症第2位 根據111年癌症登記報告，新發生癌症人數為13萬293人，較110…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0c8e8205-83f1-4c30-9e33-525eea611e9d",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "揪出隱藏殺手 新一代AI PET幫大忙",
+        "description": "癌症為台灣國人十大死因首位，其中以肺癌致死率最高，國健署公布2022年癌症登記報告，肺癌再度蟬聯台灣10大癌症榜首，新發生人數高達1萬7982人。醫師指出，肺癌初期通常沒有明顯症狀，許多人發現時已是末期，因此透過早期篩檢揪出癌細胞十分重要。",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_fde3c923-9d1d-483f-94bb-b3460cb0ec50",
+        "source": "NewsAPI",
+        "sentiment": "😊"
+    },
+    {
+        "title": "醫療疾病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/channel/782fe66c-4593-806a-7995-0a9b0ecbc4ce/",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "健康保健",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/channel/ac24e543-bc5a-dbd5-0aab-a73a4e109c6d/",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "醫學美容",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/channel/d2385c7f-0c95-67f0-bf31-9ef9650a2e80/",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "中醫養生",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/channel/04558c00-7995-b05b-5c26-ef045abc9083/",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "健康Live直播",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/channel/0f081e7b-3562-16c2-9903-f36d6d9554a5/",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "健康普拉斯",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/channel/526aaec7-dd49-b12c-f4f4-df1daf689547/",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "健康搞飛機",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/channel/1c360130-c56a-9ce5-7c6d-fc0445f4e6d4/",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "健康我＋１",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/channel/5b25a8ba-fda6-ac66-0466-b0b366783e60/",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "疾病專區",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/channel/disease",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "圖說健康",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/diagram/",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "健康情報誌",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/blog/",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "健康專輯",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/seminar/",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "健康書訊",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/channel/1716062f-228c-b0d1-e3a0-087e68807e9c/",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "麻疹群聚再＋2！看護、陪病者相繼染疫　個案皆來自同一醫院未擴及他院",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/64026",
+        "source": "健康醫療網",
+        "sentiment": "😐"
+    },
+    {
+        "title": "麻疹群聚再＋2！看護、陪病者相繼染疫　個案皆來自同一醫院未擴及他院",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/64026",
+        "source": "健康醫療網",
+        "sentiment": "😐"
+    },
+    {
+        "title": "中醫內科                                                                                                                    \n冬季三九天「穴位敷貼」驅寒、增強免疫力！　還有助縮短感染病程...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63978",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "子宮                                                                                                                    \n經期出血量大引發貧血！　無創海芙治療助擺脫子宮肌瘤困擾",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63981",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "其他骨科疾病                                                                                                                    \n嚴重跛行畏懼手術後遺症不敢開刀　醫揭「術前這1事」很重要",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63988",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "病毒細菌                                                                                                                    \n麻疹群聚再＋2！看護、陪病者相繼染疫　個案皆來自同一醫院未擴...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/64026",
+        "source": "健康醫療網",
+        "sentiment": "😐"
+    },
+    {
+        "title": "腸疾病                                                                                                                    \n肚子的「叛逆期」：腸躁症該如何對症下藥？",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/64006",
+        "source": "健康醫療網",
+        "sentiment": "😐"
+    },
+    {
+        "title": "心靈成長                                                                                                                    \n遭遇「職場霸凌」怎麼辦？要如何調適情緒？諮商心理師帶你了解！...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63995",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "藥膳養生                                                                                                                    \n冬令進補事半功倍　中醫師教你「依體質怎麼選」才能養生保健",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63975",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "神經異常                                                                                                                    \n從昏迷到認知恢復！「經顱磁刺激療法」助腦傷患者神智重生",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63979",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "攝護腺癌治療選擇需考量「這些」　海福刀助患者快速回...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63941",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "健康吃巧克力有撇步！每日「2顆」補充能量　還能護心...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63958",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "晚期肺癌治療新選擇！ EGFR標靶合併化療取得適應...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63314",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "晚期肺癌治療新選擇！ EGFR標靶合併化療取得適應...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63314",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "早期肺癌也要基因檢測？術後有哪些輔助治療可減少復發...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63115",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "早期肺癌也要基因檢測？術後有哪些輔助治療可減少復發...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63115",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "創新資源結合昱苗盒公益協會　推廣軟食健康及教育關懷",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63971",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "創新資源結合昱苗盒公益協會　推廣軟食健康及教育關懷",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63971",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "秋冬肌膚保養不能只「補水」！　醫師授護膚祕訣減少乾...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63910",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "秋冬肌膚保養不能只「補水」！　醫師授護膚祕訣減少乾...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63910",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "睡得好才能精神好！\n睡得好才能精神好！正確用藥讓安眠不再是難題",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw#uf0a625fe-5bcb-0987-118a-d280890a69df",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "樂活壯世代\n樂活壯世代　健康呷百二",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw#ub1c603b2-a7a4-25ff-f6a5-ce05e3d8e36a",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "失眠未治療小心造成「失眠惡性循環」！　擔...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/62930",
+        "source": "健康醫療網",
+        "sentiment": "😐"
+    },
+    {
+        "title": "失眠未治療小心造成「失眠惡性循環」！　擔心傳統安眠藥副作用適合用１藥",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/62930",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "你可能也是高危險群？功能醫學助力有效預防...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/62898",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "你可能也是高危險群？功能醫學助力有效預防糖尿病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/62898",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "壯世代定期健檢關心自身健康！　應做哪些健...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63411",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "壯世代定期健檢關心自身健康！　應做哪些健檢項目？健檢報告怎麼看？",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63411",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "血糖波動沒感覺？醫師推薦的監測工具讓你控...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63265",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "血糖波動沒感覺？醫師推薦的監測工具讓你控糖很有感！",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63265",
+        "source": "健康醫療網",
+        "sentiment": "😐"
+    },
+    {
+        "title": "不是一群人等死、沒有消極治療！　「安寧病...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/60140",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "不是一群人等死、沒有消極治療！　「安寧病房」跟你想的不一樣",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/60140",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "預立醫療決定等於放棄治療？病主法是一種預...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/62975",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "預立醫療決定等於放棄治療？病主法是一種預防醫學　減輕決策壓力",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/62975",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "高齡求子不易！生殖醫學需長期抗戰　成功治...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/62812",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "高齡求子不易！生殖醫學需長期抗戰　成功治療關鍵曝光　越早開始成功率將越高",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/62812",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "隱忍副作用是求子必經路？ 生殖醫學療程首...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/62296",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "隱忍副作用是求子必經路？ 生殖醫學療程首重個人化，讓求子樂孕有效率",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/62296",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "讓生育夢想不再遙遠！掌握治療新趨勢　兼顧...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/62551",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "讓生育夢想不再遙遠！掌握治療新趨勢　兼顧卵子數量與好品質",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/62551",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "李深浦 中醫師",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/blog/herbs",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "佳思優醫美診所",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/blog/juclinic",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "新竹竹北全新醫美【佳思優時尚美學診所】開幕，引領美...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/63800",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "楊龍駿 醫師",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/blog/ljyyang",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "家中毛小孩腸胃道常出問題？　獸醫師曝「這些」好菌有...",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/article/62493",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "巨星整形診所",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/blog/superstar",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "翰鳴堂中醫診所",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/blog/HanMingTang",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "楊聰財 醫師",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/blog/dryang",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "其他口腔疾病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/9943b9ab-d5c0-eac6-3cd7-af543aa7bd50",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "靜脈疾病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/940d3ded-839d-a770-2deb-b4f87e545922",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "主動脈疾病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/4fde240a-3b16-7032-12d2-9fb82db46830",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "其他心血管疾病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/a508c4d4-3860-e674-dbeb-0fc6dcfda204",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "膽疾病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/1beff1b9-4e63-34ca-4fe9-a0c333002d51",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "腸疾病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/8bb16892-28a1-aff4-e611-a1e41899f235",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "其他肝膽腸胃疾病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/f104b06d-3be7-4b4b-054a-4e378bba11db",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "其他泌尿腎臟疾病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/25ec5edd-36a0-a37e-16e7-944d9b594268",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "耳朵疾病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/58880971-fb68-9f23-a8f3-404d385e4e01",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "鼻炎疾病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/b30c3225-e008-020c-a236-ca7c7f7fa24d",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "慢性呼吸道疾病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/ec30c1f6-38b3-683e-3827-f64ad25d2bb9",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "其他肺部疾病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/bb385f7f-20ee-6dee-7019-92cdd48138d3",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "其他骨科疾病",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/44b429a6-1ddd-9bf4-ba58-6ad67a4bb1b6",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "過敏・免疫",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/735c531f-dd59-f71c-9084-7b9cae36e946",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "醫學美容",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/e59c24a8-3a3d-eadb-9527-cb4266fa0048",
+        "source": "健康醫療網",
+        "sentiment": "😢"
+    },
+    {
+        "title": "運動醫學",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/dd71c8f7-1a1a-db55-9ddc-07eee6b2d5b7",
+        "source": "健康醫療網",
+        "sentiment": "😐"
+    },
+    {
+        "title": "身心精神",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://www.healthnews.com.tw/category/dd5d080e-61ee-67d0-96e4-d95ac5f7c56c",
+        "source": "健康醫療網",
+        "sentiment": "😊"
+    },
+    {
+        "title": "健康即時",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/health/archive/",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😢"
+    },
+    {
+        "title": "健康",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/health/",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😊"
+    },
+    {
+        "title": "Yahoo顧健康",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/topic/yahoo-health/",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😊"
+    },
+    {
+        "title": "心理健康",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/topic/mental-health/",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😊"
+    },
+    {
+        "title": "養生飲食",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/fitness/",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😐"
+    },
+    {
+        "title": "免疫力",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/topic/Immunity",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😊"
+    },
+    {
+        "title": "冬季三九天「穴位敷貼」驅寒、增強免疫力！　還有助縮短感染病程",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/%E5%86%AC%E5%AD%A3%E4%B8%89%E4%B9%9D%E5%A4%A9-%E7%A9%B4%E4%BD%8D%E6%95%B7%E8%B2%BC-%E9%A9%85%E5%AF%92-%E5%A2%9E%E5%BC%B7%E5%85%8D%E7%96%AB%E5%8A%9B-%E9%82%84%E6%9C%89%E5%8A%A9%E7%B8%AE%E7%9F%AD%E6%84%9F%E6%9F%93%E7%97%85%E7%A8%8B-120000676.html",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😊"
+    },
+    {
+        "title": "麻疹疫情延燒民眾搶打疫苗！診所爆缺貨 剩3支全被訂光",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/%E9%BA%BB%E7%96%B9%E7%96%AB%E6%83%85%E5%BB%B6%E7%87%92%E6%B0%91%E7%9C%BE%E6%90%B6%E6%89%93%E7%96%AB%E8%8B%97-%E8%A8%BA%E6%89%80%E7%88%86%E7%BC%BA%E8%B2%A8-%E5%89%A93%E6%94%AF%E5%85%A8%E8%A2%AB%E8%A8%82%E5%85%89-113804626.html",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😢"
+    },
+    {
+        "title": "中部醫院麻疹群聚感染16人 衛福部:台灣大流行不容易",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/%E4%B8%AD%E9%83%A8%E9%86%AB%E9%99%A2%E9%BA%BB%E7%96%B9%E7%BE%A4%E8%81%9A%E6%84%9F%E6%9F%9316%E4%BA%BA-%E8%A1%9B%E7%A6%8F%E9%83%A8-%E5%8F%B0%E7%81%A3%E5%A4%A7%E6%B5%81%E8%A1%8C%E4%B8%8D%E5%AE%B9%E6%98%93-101754216.html",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😢"
+    },
+    {
+        "title": "罕見癌細胞傳染！醫生開刀割傷手　5個月後竟長同款腫瘤",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/%E7%BD%95%E8%A6%8B%E7%99%8C%E7%BB%86%E8%83%9E%E5%82%B3%E6%9F%93-%E9%86%AB%E7%94%9F%E9%96%8B%E5%88%80%E5%89%B2%E5%82%B7%E4%BA%86%E6%89%8B-5%E5%80%8B%E6%9C%88%E5%BE%8C%E7%AB%9F%E9%95%B7%E5%90%8C%E6%AC%BE%E8%85%AB%E7%98%A4-081647879.html",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😢"
+    },
+    {
+        "title": "1981年後出生者注意！赴「麻疹流行國家」可補打疫苗",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/1981%E5%B9%B4%E5%BE%8C%E5%87%BA%E7%94%9F%E8%80%85%E6%B3%A8%E6%84%8F-%E5%89%8D%E5%BE%80-%E9%BA%BB%E7%96%B9%E6%B5%81%E8%A1%8C%E5%9C%8B%E5%AE%B6-%E5%BB%BA%E8%AD%B0%E8%A3%9C%E6%89%93%E7%96%AB%E8%8B%97-030246421.html",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😊"
+    },
+    {
+        "title": "攝護腺癌治療選擇需考量「這些」　海福刀助患者快速回歸工作崗",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/%E6%94%9D%E8%AD%B7%E8%85%BA%E7%99%8C%E6%B2%BB%E7%99%82%E9%81%B8%E6%93%87%E9%9C%80%E8%80%83%E9%87%8F-%E9%80%99%E4%BA%9B-%E6%B5%B7%E7%A6%8F%E5%88%80%E5%8A%A9%E6%82%A3%E8%80%85%E5%BF%AB%E9%80%9F%E5%9B%9E%E6%AD%B8%E5%B7%A5%E4%BD%9C%E5%B4%97-013000611.html",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😊"
+    },
+    {
+        "title": "戴一般口罩不能防麻疹！黃立民：打疫苗最有效",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/%E6%88%B4-%E8%88%AC%E5%8F%A3%E7%BD%A9%E4%B8%8D%E8%83%BD%E9%98%B2%E9%BA%BB%E7%96%B9-%E9%BB%83%E7%AB%8B%E6%B0%91-%E6%89%93%E7%96%AB%E8%8B%97%E6%9C%80%E6%9C%89%E6%95%88-064220274.html",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😊"
+    },
+    {
+        "title": "2025年生肖運勢排行榜！前3名吉星高照財庫進帳 7生肖注意健康",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/2025%E5%B9%B4%E7%94%9F%E8%82%96%E9%81%8B%E5%8B%A2%E6%8E%92%E8%A1%8C%E6%A6%9C-%E5%89%8D3%E5%90%8D%E5%90%89%E6%98%9F%E9%AB%98%E7%85%A7%E8%B2%A1%E5%BA%AB%E9%80%B2%E5%B8%B3-7%E7%94%9F%E8%82%96%E6%B3%A8%E6%84%8F%E5%81%A5%E5%BA%B7-000000080.html",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😢"
+    },
+    {
+        "title": "獨家／超凍齡！72歲醫揭「養生之道」：天天吃這便當",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/%E7%8D%A8%E5%AE%B6-%E8%B6%85%E5%87%8D%E9%BD%A1-72%E6%AD%B2%E9%86%AB%E6%8F%AD-%E9%A4%8A%E7%94%9F%E4%B9%8B%E9%81%93-%E5%A4%A7%E5%AE%B6%E9%83%BD%E5%81%9A%E5%BE%97%E5%88%B0-073400094.html",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😢"
+    },
+    {
+        "title": "中部醫院麻疹群聚感染16人 衛福部:台灣大流行不容易",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/%E4%B8%AD%E9%83%A8%E9%86%AB%E9%99%A2%E9%BA%BB%E7%96%B9%E7%BE%A4%E8%81%9A%E6%84%9F%E6%9F%9316%E4%BA%BA-%E8%A1%9B%E7%A6%8F%E9%83%A8-%E5%8F%B0%E7%81%A3%E5%A4%A7%E6%B5%81%E8%A1%8C%E4%B8%8D%E5%AE%B9%E6%98%93-101754347.html",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😢"
+    },
+    {
+        "title": "中部醫院麻疹群聚感染16人 衛福部:台灣大流行不容易",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/%E4%B8%AD%E9%83%A8%E9%86%AB%E9%99%A2%E9%BA%BB%E7%96%B9%E7%BE%A4%E8%81%9A%E6%84%9F%E6%9F%9316%E4%BA%BA-%E8%A1%9B%E7%A6%8F%E9%83%A8-%E5%8F%B0%E7%81%A3%E5%A4%A7%E6%B5%81%E8%A1%8C%E4%B8%8D%E5%AE%B9%E6%98%93-101754347.html",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😢"
+    },
+    {
+        "title": "麻疹疫情升溫！麻疹症狀有哪些？疫苗哪裡打？麻疹傳染力強預防必看QA",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/%E9%BA%BB%E7%96%B9%E7%96%AB%E6%83%85%E5%8D%87%E6%BA%AB%EF%BC%81%E9%BA%BB%E7%96%B9%E7%97%87%E7%8B%80%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F%E7%96%AB%E8%8B%97%E5%93%AA%E8%A3%A1%E6%89%93%EF%BC%9F%E9%BA%BB%E7%96%B9%E5%82%B3%E6%9F%93%E5%8A%9B%E5%BC%B7%E9%A0%90%E9%98%B2%E5%BF%85%E7%9C%8Bqa-061501569.html",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😢"
+    },
+    {
+        "title": "罕見癌細胞傳染！醫生開刀割傷手　5個月後竟長同款腫瘤",
+        "description": "此新聞來自爬蟲，無詳細描述。",
+        "url": "https://tw.news.yahoo.com/%E7%BD%95%E8%A6%8B%E7%99%8C%E7%BB%86%E8%83%9E%E5%82%B3%E6%9F%93-%E9%86%AB%E7%94%9F%E9%96%8B%E5%88%80%E5%89%B2%E5%82%B7%E4%BA%86%E6%89%8B-5%E5%80%8B%E6%9C%88%E5%BE%8C%E7%AB%9F%E9%95%B7%E5%90%8C%E6%AC%BE%E8%85%AB%E7%98%A4-081647879.html",
+        "source": "Yahoo 健康專區",
+        "sentiment": "😢"
+    }
+]
