@@ -1,33 +1,23 @@
 console.log("Hello from talk.js");
 
+var ws = new WebSocket("/chat");
+    
+ws.onopen = function(event) {
+    console.log("Connected to WebSocket server.");
+};
+
 document.addEventListener("DOMContentLoaded", function () {
   // 當點擊 "Send" 按鈕時發送訊息
   document.getElementById("send-button").addEventListener("click", function () {
-    var userMessage = document.getElementById("user-input").value.trim();
-    if (userMessage) {
+    var inputValue = document.getElementById('user-input').value;
+            document.getElementById('user-input').value = '';
+            ws.send(inputValue);
+    // var userMessage = document.getElementById("user-input").value.trim();
+    if (inputValue) {
       // 顯示用戶的訊息
-      appendMessage("你: " + userMessage, "user");
+      appendMessage("你: " + inputValue, "user");
 
-      // 發送訊息到 Flask 後端
-      fetch("http://127.0.0.1:5000/send_message", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ message: userMessage })
-      })
-      .then(response => response.json())
-      .then(data => {
-        if (data.reply) {
-          appendMessage("聊天機器人: " + data.reply, "bot");
-        } else if (data.error) {
-          appendMessage("錯誤: " + data.error, "error");
-        }
-      })
-      .catch(error => {
-        appendMessage("錯誤: 無法連接到伺服器", "error");
-      });
-
+      
       // 清空輸入框
       document.getElementById("user-input").value = "";
     }
@@ -48,5 +38,10 @@ document.addEventListener("DOMContentLoaded", function () {
     messageElement.textContent = message;
     chatContainer.appendChild(messageElement);
     chatContainer.scrollTop = chatContainer.scrollHeight; // 讓聊天框自動滾動到最新訊息
-  }
+  };
+  ws.onmessage = function(event) {
+    console.log("Received message: " + event.data);
+    appendMessage("BOT: " + event.data, "bot");
+  };
 });
+

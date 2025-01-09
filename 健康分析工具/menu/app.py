@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import requests
 
+
 app = Flask(__name__)
 
 # 設置 CORS，允許來自特定來源的請求

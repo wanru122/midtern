@@ -1,81 +1,60 @@
 import os
 import logging
 from dotenv import load_dotenv
-from flask import Flask, request, jsonify
 import openai
-from flask import Flask, request, jsonify
-from flask_cors import CORS
-
-app = Flask(__name__)
-# 允許來自 http://127.0.0.1:3000 的所有請求
-CORS(app, resources={r"/send_message": {"origins": "http://127.0.0.1:3000"}})
+import uvicorn
+from fastapi import FastAPI, WebSocket, APIRouter
+from fastapi.staticfiles import StaticFiles
+from gpt import GPT
 
 # 配置日誌
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
-# 加載環境變數
-load_dotenv()
+# # 加載環境變數
+# load_dotenv()
 
-# 配置 Azure OpenAI API
-OPENAI_ENDPOINT = os.getenv("endpointUrl")
-OPENAI_API_KEY = os.getenv("apiKey")
+# # 配置 Azure OpenAI API
+# OPENAI_ENDPOINT = os.getenv("endpointUrl")
+# OPENAI_API_KEY = os.getenv("apiKey")
 
-
-# 初始化 OpenAI 設定
-openai.api_base = OPENAI_ENDPOINT
-openai.api_key = OPENAI_API_KEY
-
-@app.route("/send_message", methods=["POST", "OPTIONS"])
-def send_message():
-    if request.method == "OPTIONS":
-        # 預檢請求，返回 CORS 標頭
-        return jsonify(), 200
-
-    try:
-        data = request.get_json()
-        user_message = data.get("message", "").strip()
-
-        logger.debug(f"Received user message: {user_message}")
-
-        if not user_message:
-            return jsonify({"error": "請輸入有效的訊息"}), 400
-
-        reply = generate_response(user_message)
-        return jsonify({"reply": reply})
-
-    except openai.error.OpenAIError as api_error:
-        return jsonify({"error": f"OpenAI API 錯誤: {str(api_error)}"}), 500
-    except Exception as e:
-        return jsonify({"error": f"伺服器錯誤: {str(e)}"}), 500
+# # 初始化 OpenAI 設定
+# openai.api_base = OPENAI_ENDPOINT
+# openai.api_key = OPENAI_API_KEY
+gpt = GPT(endpoint_url="https://c1121-m4kwicky-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4-2/chat/completions?api-version=2024-08-01-preview",
+            azure_api_key='FHonuD7B4mLhsY4R7LAFMsZnaA4gggSDCV8RGyCuOF6PvrFqtp6OJQQJ99ALACHYHv6XJ3w3AAAAACOGiOw5')
 
 
-def generate_response(user_message):
-    """
-    調用 OpenAI API 並返回回應
-    """
-    try:
-        response = openai.ChatCompletion.create(
-            engine="gpt-35-turbo",  # 替換為您的部署名稱
-            messages=[{
-                "role": "system", 
-                "content": "你是一個用繁體中文回答問題的智慧助手，請確保你的回應最多為 50 個字。"
-            }, {
-                "role": "user", 
-                "content": user_message
-            }],
-            max_tokens=150,
-            temperature=0.7,
-        )
+def set():
+    @app.websocket("/chat")
+    async def websocket_handler(websocket: WebSocket):
+        await websocket.accept()
+        print("WebSocket connection established") 
+        while True:
+            try:
+                # 接收用戶訊息
+                data = await websocket.receive_text()
+                print(f"User input: {data}")
+                
+                # 調用 generate_response 來獲取回應
+                response = gpt.generate_response(data)
+                
+                # 發送機器人回應
+                await websocket.send_text(f"Chatbot: {response}")
+            except Exception as e:
+                print(e)
+                break
+        await websocket.close()
 
-        # 提取回應內容並限制字數
-        reply = response.choices[0].message["content"]
-        max_words = 50
-        return " ".join(reply.split()[:max_words])
-    
-    except Exception as e:
-        logger.error(f"調用 OpenAI API 錯誤: {str(e)}")
-        raise
+
+# 初始化 FastAPI 應用
+app = FastAPI()
+
+# 設定 WebSocket 路由
+set()
+
+# 掛載靜態文件
+app.mount("/", StaticFiles(directory="./", html=True))
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    uvicorn.run(app, host="127.0.0.1", port=5000)
