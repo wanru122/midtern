@@ -1,47 +1,59 @@
-console.log("Hello from talk.js");
+console.log("Message from talk.js");
 
 var ws = new WebSocket("/chat");
-    
-ws.onopen = function(event) {
-    console.log("Connected to WebSocket server.");
+
+ws.onopen = function (event) {
+  console.log("Connected to WebSocket server.");
+};
+
+ws.onerror = function (error) {
+  console.error("WebSocket error:", error);
+};
+
+ws.onclose = function () {
+  console.log("WebSocket connection closed.");
 };
 
 document.addEventListener("DOMContentLoaded", function () {
-  // 當點擊 "Send" 按鈕時發送訊息
-  document.getElementById("send-button").addEventListener("click", function () {
-    var inputValue = document.getElementById('user-input').value;
-            document.getElementById('user-input').value = '';
-            ws.send(inputValue);
-    // var userMessage = document.getElementById("user-input").value.trim();
-    if (inputValue) {
-      // 顯示用戶的訊息
-      appendMessage("你: " + inputValue, "user");
+  const chatContainer = document.getElementById("chat-container");
+  const userInput = document.getElementById("user-input");
+  const sendButton = document.getElementById("send-button");
 
-      
-      // 清空輸入框
-      document.getElementById("user-input").value = "";
-    }
-  });
+  sendButton.addEventListener("click", sendMessage);
 
-  // 允許按 Enter 發送訊息
-  document.getElementById("user-input").addEventListener("keypress", function (event) {
+  userInput.addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
-      document.getElementById("send-button").click();
+      sendMessage();
     }
   });
 
-  // 顯示訊息的函數
-  function appendMessage(message, sender) {
-    var chatContainer = document.getElementById("chat-container");
-    var messageElement = document.createElement("div");
-    messageElement.classList.add(sender); // 根據發送者設置樣式（user 或 bot）
-    messageElement.textContent = message;
-    chatContainer.appendChild(messageElement);
-    chatContainer.scrollTop = chatContainer.scrollHeight; // 讓聊天框自動滾動到最新訊息
+  
+  function sendMessage() {
+    const inputValue = userInput.value.trim();
+    if (inputValue) {
+      appendMessage(inputValue, "user");
+      ws.send(inputValue); 
+      userInput.value = ""; 
+    }
+  }
+  
+  ws.onmessage = function (event) {
+    console.log("Received message:", event.data);
+    appendMessage(event.data, "bot");
   };
-  ws.onmessage = function(event) {
-    console.log("Received message: " + event.data);
-    appendMessage("BOT: " + event.data, "bot");
-  };
-});
 
+  
+  function appendMessage(message, sender) {
+    const messageElement = document.createElement("div");
+    messageElement.classList.add("message", sender === "user" ? "user-message" : "bot-message");
+    messageElement.textContent = message;
+
+    
+    messageElement.style.opacity = 0;
+    chatContainer.appendChild(messageElement);
+    setTimeout(() => (messageElement.style.opacity = 1), 10);
+
+    
+    chatContainer.scrollTop = chatContainer.scrollHeight;
+  }
+});
