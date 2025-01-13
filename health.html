@@ -49,7 +49,6 @@
                 <button type="button" onclick="setReminder()">設定提醒</button>
             </form>
         </section>
-
  
         <section class="form-container">
             <h2>結果：</h2>
@@ -58,52 +57,66 @@
     </div>
 </main>
 
-
-
 <script>
-    function setReminder() {
+    async function setReminder() {
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
         const age = document.getElementById('age').value;
-        const gender = document.querySelector('input[name="gender"]:checked').value;
+        const gender = document.querySelector('input[name="gender"]:checked')?.value;
         const checkupDate = document.getElementById('checkupDate').value;
+        const recommendedCheckup = getRecommendedCheckup(age, gender);
 
         if (name && email && age && gender && checkupDate) {
             const reminderMessage = document.getElementById('reminderMessage');
             reminderMessage.style.display = 'block';
-            reminderMessage.innerHTML = `您好 <b>${name}</b>，您的健康檢查提醒已設定為 <b>${checkupDate}</b>。我們將發送提醒至 <b>${email}</b>。保持健康！<br>根據您的年齡和性別，我們建議您進行以下檢查：<b>${getRecommendedCheckup(age, gender)}</b>`;
+            reminderMessage.innerHTML = `您好 <b>${name}</b>，您的健康檢查提醒已設定為 <b>${checkupDate}</b>。我們將發送提醒至 <b>${email}</b>。保持健康！<br>根據您的年齡和性別，我們建議您進行以下檢查：<b>${recommendedCheckup}</b>`;
 
-            
+            try {
+                const response = await fetch('http://127.0.0.1:5000/send_reminder', { // 修改為完整 URL
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ name, email, checkupDate, recommendedCheckup })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`伺服器回應錯誤: ${response.statusText}`);
+                }
+
+                const result = await response.json();
+                alert(result.message);
+            } catch (error) {
+                alert('提醒信件發送失敗！請確認伺服器運作正常。');
+                console.error('Error:', error);
+            }
+
             document.getElementById('reminderForm').reset();
         } else {
-            alert('請填寫所有欄位');
+            alert('請完整填寫所有欄位');
         }
     }
 
     function getRecommendedCheckup(age, gender) {
+        age = parseInt(age);
+        if (isNaN(age)) return '請輸入有效的年齡';
+
         if (gender === '男') {
-            if (age < 40) {
-                return '一般健康檢查';
-            } else if (age < 60) {
-                return '心血管檢查';
-            } else {
-                return '全面健康檢查';
-            }
-        } else if (gender === '女') {
-            if (age < 40) {
-                return '一般健康檢查';
-            } else if (age < 60) {
-                return '乳房檢查';
-            } else {
-                return '全面健康檢查';
-            }
-        }
+            if (age < 40) return '一般健康檢查';
+            if (age < 60) return '心血管檢查';
+            return '全面健康檢查';
+        } 
+        else if (gender === '女') {
+            if (age < 40) return '一般健康檢查';
+            if (age < 60) return '乳房檢查';
+            return '全面健康檢查';
+        } 
         return '一般健康檢查';
     }
 </script>
 <footer>
     <div> 
-        <p>&copy;健保巴拉拉 健康檢查提醒</p>
+        <p>&copy;保健巴拉拉 健康檢查提醒</p>
     </div>
 </footer>
 </body>
