@@ -3,9 +3,9 @@ from flask_mail import Mail, Message
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # 解決跨域請求問題
+CORS(app) 
 
-# 設定郵件伺服器
+
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
@@ -22,7 +22,7 @@ def send_reminder():
     checkup_date = data.get('checkupDate')
     recommended_checkup = data.get('recommendedCheckup')
 
-    # 傳送提醒郵件
+    
     try:
         msg = Message(f"健康檢查提醒 - {name}",
                       sender=app.config['MAIL_USERNAME'],
