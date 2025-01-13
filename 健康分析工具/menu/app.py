@@ -2,13 +2,14 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import requests
 
+
 app = Flask(__name__)
 
 # 設置 CORS，允許來自特定來源的請求
-CORS(app, resources={r"/*": {"origins": ["http://127.0.0.1:3000", "http://127.0.0.1:3002"]}})
+CORS(app, resources={r"/*": {"origins": "*"}})
 
-# 設定 Azure OpenAI API 密鑰和端點
 
+# Azure OpenAI API 的端點和金鑰
 
 @app.route('/get_advice', methods=['POST'])
 def get_advice():
