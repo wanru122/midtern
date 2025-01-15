@@ -3,16 +3,12 @@ from flask_cors import CORS
 import requests
 import os
 from dotenv import load_dotenv
-import redis
 from datetime import datetime
 
 # 初始化應用與環境變數
 load_dotenv()
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
-
-# 初始化 Redis 快取
-cache = redis.StrictRedis(host='localhost', port=6379, decode_responses=True)
 
 # 環境變數設定
 AZURE_API_KEY = os.getenv('AZURE_API_KEY')
@@ -21,6 +17,9 @@ AZURE_ENDPOINT_URL = os.getenv('AZURE_ENDPOINT_URL')
 # 天氣API設定（以OpenWeatherMap為例）
 WEATHER_API_KEY = os.getenv('WEATHER_API_KEY')  # 需要註冊獲取API密鑰
 WEATHER_API_URL = 'http://api.openweathermap.org/data/2.5/weather'
+
+# 使用字典作為簡單的記憶體快取
+cache = {}
 
 @app.route('/get_advice', methods=['POST'])
 def get_advice():
@@ -52,11 +51,10 @@ def get_advice():
         )
 
         # 快取檢查
-        cache_key = f"advice:{bmi}:{bmr}:{diet}:{exercise}:{goal}:{datetime.now().strftime('%Y-%m-%d')}"
-        cached_response = cache.get(cache_key)
-        if cached_response:
+        cache_key = f"{bmi}:{bmr}:{diet}:{exercise}:{goal}:{meal_plan}:{exercise_plan}:{datetime.now().strftime('%Y-%m-%d')}"
+        if cache_key in cache:
             print("從快取返回結果")
-            return jsonify({"advice": cached_response})
+            return jsonify({"advice": cache[cache_key]})
 
         # 向 Azure OpenAI API 發送請求
         headers = {
@@ -77,7 +75,7 @@ def get_advice():
         advice = response_data['choices'][0]['message']['content'].strip()
 
         # 儲存至快取
-        cache.set(cache_key, advice, ex=3600)  # 快取 1 小時
+        cache[cache_key] = advice
 
         # 儲存到日誌文件
         with open("advice_log.txt", "a", encoding="utf-8") as log_file:
@@ -95,67 +93,6 @@ def get_advice():
     except Exception as e:
         print(f"錯誤: {e}")
         return jsonify({"error": "伺服器發生錯誤，請稍後再試。"}), 500
-
-@app.route('/get_weather_advice', methods=['GET'])
-def get_weather_advice():
-    city = request.args.get('city', 'Kaohsiung') 
-    url = f"{WEATHER_API_URL}?q={city}&appid={WEATHER_API_KEY}&units=metric" 
-
-    try:
-        response = requests.get(url)
-        response.raise_for_status()  # 確保沒有錯誤
-        data = response.json()
-
-        # 提取所需的天氣數據
-        temperature = data['main']['temp']
-        weather = data['weather'][0]['description']
-        humidity = data['main']['humidity']
-
-        # 根據溫度提供運動建議
-        if temperature > 30:
-            advice = "天氣炎熱，建議避免戶外運動，改為室內運動。"
-        elif 20 <= temperature <= 30:
-            advice = "天氣適宜，可以進行中等強度的戶外運動。"
-        else:
-            advice = "天氣較冷，建議穿暖和衣物並進行低強度運動。"
-
-        return jsonify({
-            "city": city,
-            "temperature": temperature,
-            "weather": weather,
-            "humidity": humidity,
-            "advice": advice
-        })
-    except requests.exceptions.RequestException as e:
-        return jsonify({"error": f"無法獲取天氣資料: {str(e)}"}), 500
-
-@app.route('/get_advice_history', methods=['GET'])
-def get_advice_history():
-    try:
-        # 從日誌文件中讀取建議記錄
-        if not os.path.exists("advice_log.txt"):
-            return jsonify({"history": []})
-
-        with open("advice_log.txt", "r", encoding="utf-8") as log_file:
-            logs = log_file.readlines()
-
-        # 將記錄分塊化返回
-        history = []
-        current_record = {}
-        for line in logs:
-            if line.startswith("202"):
-                if current_record:
-                    history.append(current_record)
-                current_record = {"timestamp": line.split(" - ")[0], "prompt": line.split("Prompt: ")[1].strip()}
-            elif line.startswith("Advice: "):
-                current_record["advice"] = line.replace("Advice: ", "").strip()
-        if current_record:
-            history.append(current_record)
-
-        return jsonify({"history": history})
-    except Exception as e:
-        print(f"錯誤: {e}")
-        return jsonify({"error": "無法讀取歷史記錄。"}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)
