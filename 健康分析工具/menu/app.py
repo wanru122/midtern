@@ -14,7 +14,6 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 AZURE_API_KEY = os.getenv('AZURE_API_KEY')
 AZURE_ENDPOINT_URL = os.getenv('AZURE_ENDPOINT_URL')
 
-# 天氣API設定（以OpenWeatherMap為例）
 WEATHER_API_KEY = os.getenv('WEATHER_API_KEY')  # 需要註冊獲取API密鑰
 WEATHER_API_URL = 'http://api.openweathermap.org/data/2.5/weather'
 
