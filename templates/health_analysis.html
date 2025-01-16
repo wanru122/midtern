@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>健康數據輸入</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>健康數據輸入與分析</h1>
+    </header>
+    <main>
+        <form method="POST">
+            <div class="form-group">
+                <label for="date">日期:</label>
+                <input type="date" name="date" placeholder="YYYY-MM-DD" required>
+            </div>
+            <div class="form-group">
+                <label for="weight">體重 (kg):</label>
+                <input type="number" name="weight" step="0.1" required>
+            </div>
+            <div class="form-group">
+                <label for="systolic">收縮壓 (mmHg):</label>
+                <input type="number" name="systolic" required>
+            </div>
+            <div class="form-group">
+                <label for="diastolic">舒張壓 (mmHg):</label>
+                <input type="number" name="diastolic" required>
+            </div>
+            <div class="form-group">
+                <label for="heart_rate">心率 (bpm):</label>
+                <input type="number" name="heart_rate" required>
+            </div>
+            <button type="submit">生成圖表</button>
+        </form>
+    </main>
+
+    <div class="chart-container">
+        <h2>健康數據圖表</h2>
+        {% if chart_url %}
+        <img src="data:image/png;base64,{{ chart_url }}" alt="圖表載入中...">
+        {% endif %}
+
+        {% if error_message %}
+        <p style="color:red;">{{ error_message }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
